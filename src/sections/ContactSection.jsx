@@ -18,7 +18,7 @@ const ContactSection = () => {
         </div>
       </div>
       <p>Made with ❤ by TEC Team MPGI</p>
-    </div>
+    </div>
   )
 }
 
