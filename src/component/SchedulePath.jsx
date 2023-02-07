@@ -12,7 +12,7 @@ function SchedulePath() {
         trigger: "#path",
         start: "top 90%",
         scrub: 1,
-        markers: true
+        // markers: true
       },
       // duration: 1,
       yoyo: true,

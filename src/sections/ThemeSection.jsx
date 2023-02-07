@@ -4,9 +4,9 @@ const themes = ["Web Development", "App Development", "Blockchain", "AI/ML", "So
 
 const ThemeSection = () => {
   return (
-    <div className='theme'>
+    <section className='theme'>
       <h1>Themes</h1>
-    </div>
+    </section>
   )
 }
 

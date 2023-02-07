@@ -27,9 +27,9 @@ const phases = [
 
 const ScheduleSection = () => {
   return (
-    <div className='schedule'>
+    <section className='schedule'>
       <h1 className='text-center'>Schedule</h1>
-      <div className='position-relative vh-100' style={{"min-height": "250vh"}}>
+      <div className='position-relative vh-100' style={{"minHeight": "250vh"}}>
         <div className='text-center'><SchedulePath /></div>
         <ScheduleCardComponent phaseName={phases[0].phaseName} phaseDetails={phases[0].phaseDetails} posLeft="20%" posTop="0%" posRight="" />
         <ScheduleCardComponent phaseName={phases[1].phaseName} phaseDetails={phases[1].phaseDetails} posLeft="66%" posTop="17%" posRight="" />
@@ -37,7 +37,7 @@ const ScheduleSection = () => {
         <ScheduleCardComponent phaseName={phases[3].phaseName} phaseDetails={phases[3].phaseDetails} posLeft="66%" posTop="52%" posRight="" />
         <ScheduleCardComponent phaseName={phases[4].phaseName} phaseDetails={phases[4].phaseDetails} posLeft="22%" posTop="69%" posRight="" />
       </div>
-    </div>
+    </section>
   )
 }
 
