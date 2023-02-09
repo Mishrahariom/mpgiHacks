@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Inter:wght@300;500&display=swap');
 
 body{
+    /* width: 100vw;
+    height: 100vh; */
     color: white;
     background-color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
+
+/* .horizontal-scroll-container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.horizontal-scroll-container section{
+    scroll-snap-align: start;
+} */
 
 .navbar-glass-effect{
     position: fixed;
@@ -23,7 +34,7 @@ nav ul li{
 nav ul li :hover{
     display: inline-block;
     cursor: pointer;
-    border-bottom: 1px solid gold;
+    /* border-bottom: 1px solid gold; */
     color: rgb(240, 237, 50) !important;
 }
 
@@ -51,5 +62,86 @@ h1{
 /****************Sponsor Section************************/
 /****************FAQ Section************************/
 /****************Contact Section************************/
+
+
+/****************Profile Card************************/
+.profile-card{
+    width: 15rem;
+    height: 21rem;
+    padding: 8em 0 0;
+    color: white;
+    /* background-color:  rgba(0, 0, 0, 0.4); */
+    text-align: center;
+    border: none !important;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    transition: transform 300ms ease;
+    overflow: hidden;
+    margin: auto;
+}
+
+.profile-card p{
+    margin: 0 0;
+}
+
+.profile-card:hover{
+    transform: scale(1.005);
+}
+
+.profile-card-content{
+    background: linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8));
+    height: 100%;
+    transform: translateY(80%);
+    transition: transform 500ms ease;
+}
+
+.profile-card:hover .profile-card-content{
+    transform: translateY(0);
+}
+
+.profile-card-content .profile-card-title{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.profle-card:hover .profile-card-content .profile-card-title{
+    line-height: 1.3;
+}
+
+.Associates{
+    display: inline-block;  /* while setting it to a inline the background color doesn't show. Why it does after setting display to inline ??*/
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    margin: 1.1em;
+    padding: 0.2em 0.7em;
+    border-radius: 1.1em;
+    transition: 100ms ease;
+}
+
+.Associates:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 0.5px white solid;
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    .profile-card{
+        width: 20rem;
+        height: 27rem;
+    }
+
+    .profile-card-content{
+        transform: translateY(87%);
+    }
+
+    .profile-card:hover .profile-card-content{
+        transform: translateY(30%);
+    }
+}
 
 

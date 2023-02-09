@@ -1,18 +1,18 @@
 import React from 'react'
-import {Cover, About, Schedule, Prize, Sponsor, Faq, Contact} from './sections'
+import { Routes, Route } from "react-router-dom";
 import NavbarComponent from './component/NavbarComponent';
+import HomePage from './pages/HomePage';
+import TeamPage from './pages/TeamPage';
+import Team from './pages/TeamPage';
 
 function App() {
   return (
     <>
-    <NavbarComponent/>
-        <Cover />
-        <About />
-        <Schedule />
-        <Prize />
-        <Sponsor />
-        <Faq />
-        <Contact />
+      <NavbarComponent/>
+      <Routes>
+        <Route path="/" element={ <HomePage /> } />
+        <Route path="team" element={ <TeamPage/> } />
+      </Routes>   
     </>
   )
 }
