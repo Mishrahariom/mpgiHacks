@@ -34,7 +34,7 @@ const faqQuestions = [
 
 const FaqSection = () => {
   return (
-    <div className='faq vh-100'>
+    <section className='faq vh-100'>
       <h1>FAQs</h1>
       <div className='d-flex flex-row flex-wrap align-center' style={{"paddingLeft": "6.5rem"}}>
       {
@@ -42,7 +42,7 @@ const FaqSection = () => {
       }
       <FaqCardComponent question={"showMore"} />
       </div>
-    </div>
+    </section>
   )
 }
 
