@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import NavbarComponent from './component/NavbarComponent';
 import HomePage from './pages/HomePage';
 import TeamPage from './pages/TeamPage';
-import Team from './pages/TeamPage';
 
 function App() {
   return (

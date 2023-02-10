@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Inter:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Inter:wght@300;500&display=swap');
 
 body{
     /* width: 100vw;
@@ -46,23 +46,43 @@ h1{
 }
 
 /****************Cover Section************************/
-.cover{
+.cover .cover-heading{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    /* font-size: 4rem; */
 }
 
 /****************About Section************************/
 .about{
 }
+.about .about-text{
+    font-size: 23px;
+}
 
 /****************Schedule Section************************/
 /****************Prize Section************************/
 /****************Theme Section************************/
-.theme{
-    height: 100vh;
-}
 /****************Sponsor Section************************/
 /****************FAQ Section************************/
+.faq-questions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 6.5rem;
+}
 /****************Contact Section************************/
+.contact .contact-links{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact .mpgi-card{
+    width: 40rem;
+}
 
+.contact .contact-team img{
+    width: 250px;
+}
 
 /****************Profile Card************************/
 .profile-card{
@@ -142,6 +162,31 @@ h1{
     .profile-card:hover .profile-card-content{
         transform: translateY(30%);
     }
+
+    .schedule-card{
+        width: 12rem !important;
+        height: 12rem !important;
+    }
+    .cover .cover-heading{
+        font-size: 4rem;
+    }
+    .faq-questions{
+        padding-left: 0;
+        justify-content: center;
+    }
+    .theme-mobile{
+        padding-left: 0 !important;
+        justify-content: center;
+    }
+    .mobile-hidden{
+        display: none;
+    }
+    .contact .mpgi-card{
+        width: 20rem;
+    }
+
+    .about .about-text{
+        font-size: 20px;
+        text-align: center;
+    }
 }
-
-

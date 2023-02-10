@@ -23,11 +23,13 @@ const phases = [
     phaseName: "Phase 5",
     phaseDetails: "Closing Ceremony"
   }
-]
+];
+
+
 
 const ScheduleSection = () => {
   return (
-    <section className='schedule'>
+    <section className='schedule mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
       <div className='position-relative vh-100' style={{"minHeight": "250vh"}}>
         <div className='text-center'><SchedulePath /></div>
@@ -42,7 +44,3 @@ const ScheduleSection = () => {
 }
 
 export default ScheduleSection
-
-{/* <div className='d-flex vh-100'>
-</div> */}
-  {/* phases.map(phase => <ScheduleCardComponent phaseName={phase.phaseName} phaseDetails={phase.phaseDetails} />) */}

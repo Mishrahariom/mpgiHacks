@@ -9,13 +9,13 @@ const HomePage = () => {
         <About />
         </div>
 
-        <Schedule />
+        {/* <Schedule /> */}
 
         <div className=''>
-        <Prize />
-        <Sponsor />
-        <Faq />
-        <Theme />
+          <Prize />
+          <Sponsor />
+          <Faq />
+          <Theme />
         </div>
 
         <Contact />
