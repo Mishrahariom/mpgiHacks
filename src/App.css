@@ -60,6 +60,10 @@ h1{
 }
 
 /****************Schedule Section************************/
+.schedule-height{
+    min-height: 250vh;
+}
+/* "minHeight": "250vh" */
 /****************Prize Section************************/
 /****************Theme Section************************/
 /****************Sponsor Section************************/
@@ -164,8 +168,9 @@ h1{
     }
 
     .schedule-card{
-        width: 12rem !important;
-        height: 12rem !important;
+        position: relative;
+        width: 10rem !important;
+        height: 10rem !important;
     }
     .cover .cover-heading{
         font-size: 4rem;
@@ -188,5 +193,8 @@ h1{
     .about .about-text{
         font-size: 20px;
         text-align: center;
+    }
+    .schedule-height{
+        min-height: 100vh;
     }
 }

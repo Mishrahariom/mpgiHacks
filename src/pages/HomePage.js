@@ -9,7 +9,7 @@ const HomePage = () => {
         <About />
         </div>
 
-        {/* <Schedule /> */}
+        <Schedule />
 
         <div className=''>
           <Prize />
