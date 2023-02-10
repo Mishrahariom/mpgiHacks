@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const coverSection = () => {
   return (
     <section className='panel cover vh-100 d-flex flex-column align-items-center justify-content-center' style={{"paddingTop": "5rem", "color": "gold", "background":"linear-gradient(#453402, #000000)"}}>

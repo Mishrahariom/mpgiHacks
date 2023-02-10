@@ -86,6 +86,21 @@ h1{
 
 .contact .contact-team img{
     width: 250px;
+/***************Theme  Page***********************/
+.team-page{
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 5rem;
+}
+
+@media (max-width:480px) {
+    .team-page{
+        padding: 4rem 1rem;
+    }
+
+    .width100{
+        width: 100%;
+    }
 }
 
 /****************Profile Card************************/
