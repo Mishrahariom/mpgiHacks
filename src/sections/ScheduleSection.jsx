@@ -100,7 +100,7 @@ const ScheduleSection = () => {
     <section className='schedule mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
       <div className='schedule-height position-relative'>
-        <div className='text-center'><SchedulePath /></div>
+        <div className='schedule-path'><SchedulePath /></div>
         {
           phases.map((phase,i) => (
             <ScheduleCardComponent

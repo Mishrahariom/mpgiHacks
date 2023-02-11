@@ -63,6 +63,10 @@ h1{
 .schedule-height{
     min-height: 250vh;
 }
+
+.schedule-path{
+    text-align: center;
+}
 /* "minHeight": "250vh" */
 /****************Prize Section************************/
 /****************Theme Section************************/
@@ -185,8 +189,10 @@ h1{
 
     .schedule-card{
         position: relative;
-        width: 10rem !important;
-        height: 10rem !important;
+        /* width: 10rem !important;
+        height: 10rem !important; */
+        width: 35vw !important;
+        height: 15vh !important;
     }
     .cover .cover-heading{
         font-size: 4rem;
@@ -211,6 +217,14 @@ h1{
         text-align: center;
     }
     .schedule-height{
-        min-height: 100vh;
+        min-height: 200vh;
+    }
+    .schedule-path{
+        position: absolute;
+        left: 25%;
+        /* text-align: center; */
+    }
+    .schedule-card p{
+        font-size: 14px;
     }
 }

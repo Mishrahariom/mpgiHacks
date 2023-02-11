@@ -50,7 +50,7 @@ export default function TeamPage() {
     // }
 
     return (
-        <div className="team-page">
+        <div className="team-page bg-white">
             <div className="container mb-5 text-center">
                 <h1 className="display-3">Faculty Coordinator</h1>
             </div>
@@ -72,7 +72,7 @@ export default function TeamPage() {
                 } */}
                     {
                         faculty.map(obj => (
-                            <div className='col-6 g-5'>
+                            <div className='col-sm-12 col-md-6 g-5'>
                                 <ProfileCard {...obj} />
                             </div>
                         ))
@@ -86,7 +86,7 @@ export default function TeamPage() {
             <div className='row g-5 mb-5'>
             {
                         founders.map(obj => (
-                            <div className='col-4 g-5'>
+                            <div className='col-sm-12 col-md-4 g-5'>
                                 <ProfileCard {...obj} />
                             </div>
                         ))

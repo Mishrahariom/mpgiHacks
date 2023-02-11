@@ -20,7 +20,6 @@ export default function ProfileCard({
     //         return null;
     //     }
     // }
-
     return (
         <div>
             <div className="profile-card" style={{backgroundImage:photo}}>
