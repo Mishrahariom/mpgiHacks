@@ -41,7 +41,8 @@ nav ul li :hover{
 h1{
     font-size: 5rem;
     text-align: center;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
     font-weight: 700;
 }
 
@@ -174,6 +175,9 @@ h1{
 }
 
 @media (max-width:480px){
+    .h1{
+
+    }
     .profile-card{
         width: 20rem;
         height: 27rem;
@@ -206,7 +210,7 @@ h1{
         justify-content: center;
     }
     .mobile-hidden{
-        display: none;
+        display: none !important;
     }
     .contact .mpgi-card{
         width: 20rem;

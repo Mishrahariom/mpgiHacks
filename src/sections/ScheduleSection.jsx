@@ -90,17 +90,15 @@ const ScheduleSection = () => {
 
   if(width < 486){
     positions = positionsForMobile.map(pos => {return {...pos}})
-    console.log(positions)
   } else {
     positions = positionsForLaptop.map(pos => {return {...pos}})
-    console.log(positions)
   }
 
   return (
     <section className='schedule mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
       <div className='schedule-height position-relative'>
-        <div className='schedule-path'><SchedulePath /></div>
+        <div className='text-center'><SchedulePath /></div>
         {
           phases.map((phase,i) => (
             <ScheduleCardComponent
