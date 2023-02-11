@@ -1,17 +1,18 @@
 
-import kartik from '../assests/image/kartiksrivastava.jpg'
-// import kartik from '../assests'
-// import kartik from '../assests'
-// import kartik from '../assests'
+// import kartik from '../assests/images/kartiksrivastava.jpg'
+// import IMAGES from "../assests/images";
+
+// console.log(IMAGES)
 
 export const faculty = [
     {
         name: "Saurabh Singh",
-        photo: "",
+        photo: "https://i.ibb.co/fdTt8wH/saurabh-singh.jpg",
         post: "Head Of Department",
     },
     {
         name: "Milind Bhatt",
+        photo: "https://i.ibb.co/7yq42Wz/milind-bhatt.jpg",
         post: "Assisment Professor",
     }
 ]
@@ -19,46 +20,49 @@ export const faculty = [
 export const founders = [
     {
         name: "Hari Om Mishra",
-        post: "",
+        photo: "https://i.ibb.co/cTX2b5F/hariom-mishra.jpg",
     },
     {
-        name: "Mukul Dubey ",
-        post: "",
+        name: "Mukul Dubey",
+        photo: "https://i.ibb.co/0DPB0k1/mukul-dubey-photo.jpg",
 
     },
     {
-        name: "Anmol pandey ",
-        post: " ",
+        name: "Anmol pandey",
+        photo: "https://i.ibb.co/2sh8DVg/anmol-pangey.jpg",
+        // post: " ",
 
     },
     {
-        name: "Anma Jha ",
-        post: " ",
+        name: "Aman Jha",
+        photo: "https://i.ibb.co/phbhHQS/aman-jha.jpg",
 
     },
     {
-        name: "Kartik Srivastava ",
-        post: "  ",
+        name: "Kartik Srivastava",
+        photo: "https://i.ibb.co/2spYW6Q/kartik-srivastava.jpg",
 
     },
     {
-        name: " Mohammad Sarfaraz",
-        post: "  ",
-        photo: "Screenshot 2023-02-10 155813.png"
+        name: "Mohammad Sarfaraz",
+        photo: "https://i.ibb.co/XjgcQpY/mohammad-sarfaraz.jpg",
+        // post: "  ",
     },
     {
-        name: " Arshveer Singh Arora ",
-        post: "     ",
+        name: "Arshveer Singh Arora",
+        photo: "https://i.ibb.co/9WjkSD9/arshveer-singh-arora.jpg",
+        // post: "",
 
     },
     {
         name: "Risabh Vaish",
+        photo: "https://i.ibb.co/Rz6QrK4/rishabh-vaish.jpg",
         post: " ",
 
     },
     {
-        name: " Ashutosh Singh ",
-        post: " ",
+        name: "Ashutosh Singh",
+        photo: "https://i.ibb.co/D8K1MPP/ashutosh-singh.jpg",
 
     }
 ]

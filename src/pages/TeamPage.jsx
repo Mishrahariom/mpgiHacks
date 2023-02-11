@@ -50,7 +50,7 @@ export default function TeamPage() {
     // }
 
     return (
-        <div className="team-page bg-white">
+        <div className="team-page">
             <div className="container mb-5 text-center">
                 <h1 className="display-3">Faculty Coordinator</h1>
             </div>

@@ -95,12 +95,12 @@ h1{
 .team-page{
     min-height: 100vh;
     max-width: 100%;
-    padding: 5rem;
+    padding: 6rem 5rem;
 }
 
 @media (max-width:480px) {
     .team-page{
-        padding: 4rem 1rem;
+        padding: 0rem 2rem; 
     }
 
     .width100{
