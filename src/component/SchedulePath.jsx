@@ -2,10 +2,13 @@ import React, {useLayoutEffect} from "react";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import useWindowDimensions from "./useWindowDimensions";
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 
 
 function SchedulePath() {
+  const { width } = useWindowDimensions();
+
   useLayoutEffect(() => {
     gsap.to("#motionSVG", {
       scrollTrigger: {
@@ -26,6 +29,51 @@ function SchedulePath() {
       }
     });
   });
+  if (width < 486) 
+  return (
+      <svg
+        width={101.78572}
+        height={963.14301}
+        viewBox="0 0 101.78572 963.14299"
+        id="svg5"
+        xmlSpace="preserve"
+      >
+        <defs id="defs2" />
+        <g id="layer1" transform="translate(-205.70183,-5.0411163)">
+          <g id="layer1-8" transform="translate(-638.11391,-252.14617)">
+            <circle
+              style={{
+                fill: "#ffc107",
+                fillOpacity: 1,
+                stroke: "#ffc107",
+                strokeWidth: 20,
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeDasharray: "none",
+              }}
+              id="motionSVG"
+              cx={883.81573}
+              cy={297.18729}
+              r={30}
+            />
+          </g>
+          <path
+            style={{
+              fill: "none",
+              stroke: "#ffc107",
+              strokeWidth: 10,
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              strokeDasharray: "none",
+              strokeOpacity: 1,
+            }}
+            d="M 302.48756,39.800995 V 963.18408"
+            id="path"
+          />
+        </g>
+      </svg>
+  )
+  else
   return (
     <>
       <svg

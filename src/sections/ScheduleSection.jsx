@@ -1,6 +1,63 @@
 import React from 'react';
 import SchedulePath from '../component/SchedulePath';
 import ScheduleCardComponent from '../component/ScheduleCardComponent';
+import useWindowDimensions from '../component/useWindowDimensions';
+
+const positionsForMobile = [
+  {
+    left: "0%",
+    // right: 0,
+    top: "0%",
+  },
+  {
+    // left: auto,
+    right: "0%",
+    top: "20%",
+  },
+  {
+    left: "0%",
+    // right: 0,
+    top: "40%",
+  },
+  {
+    // left: 0,
+    right: "0%",
+    top: "60%",
+  },
+  {
+    left: "0%",
+    // right: 0,
+    top: "80%",
+  },
+]
+
+const positionsForLaptop = [
+  {
+    left: "20%",
+    // right: auto,
+    top: "0%",
+  },
+  {
+    left: "66%",
+    // right: auto,
+    top: "17%",
+  },
+  {
+    left: "21%",
+    // right: auto,
+    top: "36%",
+  },
+  {
+    left: "66%",
+    // right: auto,
+    top: "52%",
+  },
+  {
+    left: "22%",
+    // right: auto,
+    top: "69%",
+  },
+]
 
 const phases = [
   {
@@ -23,26 +80,40 @@ const phases = [
     phaseName: "Phase 5",
     phaseDetails: "Closing Ceremony"
   }
-]
+];
+
+
 
 const ScheduleSection = () => {
+  const { width } = useWindowDimensions();
+  let positions;
+
+  if(width < 486){
+    positions = positionsForMobile.map(pos => {return {...pos}})
+    console.log(positions)
+  } else {
+    positions = positionsForLaptop.map(pos => {return {...pos}})
+    console.log(positions)
+  }
+
   return (
-    <section className='schedule'>
+    <section className='schedule mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
-      <div className='position-relative vh-100' style={{"minHeight": "250vh"}}>
+      <div className='schedule-height position-relative'>
         <div className='text-center'><SchedulePath /></div>
-        <ScheduleCardComponent phaseName={phases[0].phaseName} phaseDetails={phases[0].phaseDetails} posLeft="20%" posTop="0%" posRight="" />
-        <ScheduleCardComponent phaseName={phases[1].phaseName} phaseDetails={phases[1].phaseDetails} posLeft="66%" posTop="17%" posRight="" />
-        <ScheduleCardComponent phaseName={phases[2].phaseName} phaseDetails={phases[2].phaseDetails} posLeft="21%" posTop="36%" posRight="" />
-        <ScheduleCardComponent phaseName={phases[3].phaseName} phaseDetails={phases[3].phaseDetails} posLeft="66%" posTop="52%" posRight="" />
-        <ScheduleCardComponent phaseName={phases[4].phaseName} phaseDetails={phases[4].phaseDetails} posLeft="22%" posTop="69%" posRight="" />
+        {
+          phases.map((phase,i) => (
+            <ScheduleCardComponent
+              phaseName={phase.phaseName}
+              phaseDetails={phase.phaseDetails}
+              posLeft={positions[i].left}
+              posRight={positions[i].right}
+              posTop={positions[i].top} />
+          ))
+        }
       </div>
     </section>
   )
 }
 
 export default ScheduleSection
-
-{/* <div className='d-flex vh-100'>
-</div> */}
-  {/* phases.map(phase => <ScheduleCardComponent phaseName={phase.phaseName} phaseDetails={phase.phaseDetails} />) */}

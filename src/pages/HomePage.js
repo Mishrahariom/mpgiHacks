@@ -12,10 +12,10 @@ const HomePage = () => {
         <Schedule />
 
         <div className=''>
-        <Prize />
-        <Sponsor />
-        <Faq />
-        <Theme />
+          <Prize />
+          <Sponsor />
+          <Faq />
+          <Theme />
         </div>
 
         <Contact />

@@ -34,9 +34,9 @@ const faqQuestions = [
 
 const FaqSection = () => {
   return (
-    <section className='faq vh-100'>
+    <section className='faq mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
       <h1>FAQs</h1>
-      <div className='d-flex flex-row flex-wrap align-center' style={{"paddingLeft": "6.5rem"}}>
+      <div className='faq-questions'>
       {
         faqQuestions.map(el => <FaqCardComponent question={el.question} answer={el.answer}/>)
       }
