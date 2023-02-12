@@ -41,7 +41,8 @@ nav ul li :hover{
 h1{
     font-size: 5rem;
     text-align: center;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
     font-weight: 700;
 }
 
@@ -62,6 +63,10 @@ h1{
 /****************Schedule Section************************/
 .schedule-height{
     min-height: 250vh;
+}
+
+.schedule-path{
+    text-align: center;
 }
 /* "minHeight": "250vh" */
 /****************Prize Section************************/
@@ -91,12 +96,12 @@ h1{
 .team-page{
     min-height: 100vh;
     max-width: 100%;
-    padding: 5rem;
+    padding: 6rem 5rem;
 }
 
 @media (max-width:480px) {
     .team-page{
-        padding: 4rem 1rem;
+        padding: 0rem 2rem; 
     }
 
     .width100{
@@ -170,6 +175,9 @@ h1{
 }
 
 @media (max-width:480px){
+    .h1{
+
+    }
     .profile-card{
         width: 20rem;
         height: 27rem;
@@ -185,8 +193,10 @@ h1{
 
     .schedule-card{
         position: relative;
-        width: 10rem !important;
-        height: 10rem !important;
+        /* width: 10rem !important;
+        height: 10rem !important; */
+        width: 35vw !important;
+        height: 15vh !important;
     }
     .cover .cover-heading{
         font-size: 4rem;
@@ -200,7 +210,7 @@ h1{
         justify-content: center;
     }
     .mobile-hidden{
-        display: none;
+        display: none !important;
     }
     .contact .mpgi-card{
         width: 20rem;
@@ -211,6 +221,14 @@ h1{
         text-align: center;
     }
     .schedule-height{
-        min-height: 100vh;
+        min-height: 200vh;
+    }
+    .schedule-path{
+        position: absolute;
+        left: 25%;
+        /* text-align: center; */
+    }
+    .schedule-card p{
+        font-size: 14px;
     }
 }

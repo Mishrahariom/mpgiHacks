@@ -90,10 +90,8 @@ const ScheduleSection = () => {
 
   if(width < 486){
     positions = positionsForMobile.map(pos => {return {...pos}})
-    console.log(positions)
   } else {
     positions = positionsForLaptop.map(pos => {return {...pos}})
-    console.log(positions)
   }
 
   return (
