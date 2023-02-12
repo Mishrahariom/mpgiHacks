@@ -1,12 +1,15 @@
 import React from 'react';
-import {Cover, About, Schedule, Prize, Sponsor, Faq, Contact, Theme} from '../sections'
+import { Route } from 'react-router-dom';
+import {Cover, About, Schedule, Prize, Sponsor, Faq, Theme} from '../sections'
 
 const HomePage = () => {
+
   return (
     <>
         <div className='horizontal-scroll-container'>
         <Cover />
         <About />
+        {/* <Route path="about" element={<About />} /> */}
         </div>
 
         <Schedule />
@@ -17,8 +20,6 @@ const HomePage = () => {
           <Faq />
           <Theme />
         </div>
-
-        <Contact />
     </>
   )
 }
