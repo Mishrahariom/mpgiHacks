@@ -95,7 +95,7 @@ const ScheduleSection = () => {
   }
 
   return (
-    <section className='schedule mt-5 mt-md-0'>
+    <section id="schedule" className='mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
       <div className='schedule-height position-relative'>
         <div className='text-center'><SchedulePath /></div>

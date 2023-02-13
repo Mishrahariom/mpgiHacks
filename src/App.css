@@ -47,16 +47,14 @@ h1{
 }
 
 /****************Cover Section************************/
-.cover .cover-heading{
+#cover .cover-heading{
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     /* font-size: 4rem; */
 }
 
 /****************About Section************************/
-.about{
-}
-.about .about-text{
+#aboutus .about-text{
     font-size: 23px;
 }
 
@@ -80,17 +78,22 @@ h1{
     padding-left: 6.5rem;
 }
 /****************Contact Section************************/
-.contact .contact-links{
+#contact .contact-links{
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
-.contact .mpgi-card{
+#contact .mpgi-card{
     width: 40rem;
+    border-radius: 2rem;
 }
 
-.contact .contact-team img{
+#contact .contact-team img{
     width: 250px;
+}
+
+#contact .mpgi-logo{
+    border-radius: 2rem 0 0 2rem;
 }
 /***************Theme  Page***********************/
 .team-page{
@@ -198,7 +201,7 @@ h1{
         width: 35vw !important;
         height: 15vh !important;
     }
-    .cover .cover-heading{
+    #cover .cover-heading{
         font-size: 4rem;
     }
     .faq-questions{
@@ -212,11 +215,18 @@ h1{
     .mobile-hidden{
         display: none !important;
     }
-    .contact .mpgi-card{
+    #contact .mpgi-card{
         width: 20rem;
     }
 
-    .about .about-text{
+    #contact .contact-team{
+        background-color: black;
+    }
+    #contact .mpgi-logo{
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    #aboutus .about-text{
         font-size: 20px;
         text-align: center;
     }

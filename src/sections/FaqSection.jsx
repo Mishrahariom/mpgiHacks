@@ -34,7 +34,7 @@ const faqQuestions = [
 
 const FaqSection = () => {
   return (
-    <section className='faq mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
+    <section id="faq" className='mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
       <h1>FAQs</h1>
       <div className='faq-questions'>
       {

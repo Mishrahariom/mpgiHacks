@@ -4,7 +4,7 @@ import { TagCloud } from "@frank-mayer/react-tag-cloud";
 
 const AboutSection = () => {
   return (
-    <section className="about panel mt-5 mt-md-0 bg-primray" style={{minHeight: "100vh", marginTop: "10rem"}}>
+    <section id="aboutus" className="panel mt-5 mt-md-0 bg-primray" style={{minHeight: "100vh", marginTop: "10rem"}}>
         <h1 className='text-center pb-5'>About Us</h1>
         {/* <p cla>Maharana Pratap Engineering College, kanpur</p> */}
           <div className='d-flex flex-wrap align-items-center justify-content-evenly'>

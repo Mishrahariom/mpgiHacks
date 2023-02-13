@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 
 const ContactSection = () => {
   return (
-    <section className='contact container-fluid pt-sm-5 bg-dark'>
+    <section id="contact" className='container-fluid pt-sm-5 bg-dark'>
       <div className='row'>
-        <div className='bg-black py-5 py-sm-0 col-sm-12 col-md-3 contact-team d-flex flex-column justify-content-start align-items-center'>
+        <div className='py-5 py-sm-0 col-sm-12 col-md-3 contact-team d-flex flex-column justify-content-start align-items-center'>
           <img src="./Tech_e_Clan.png" className='' />
           <Link to="/team" className='btn btn-warning'><span>Want to know the Team ?</span></Link>
         </div>
         <div className='col-sm-12 d-flex justify-content-center text-center col-md-6 ps-4'>
-          <div className="mpgi-card card my-5 bg-black rounded-start-5 rounded-5">
+          <div className="mpgi-card card my-5 bg-black">
             <div className="row g-0">
-              <div className="col-md-4 pt-5 rounded-start-5 bg-white pb-5">
+              <div className="col-md-4 pt-5 mpgi-logo bg-white pb-5">
                 <img src="./mpgi_logo.svg" className="img-fluid " alt="..."  />
               </div>
               <div className="col-md-8">
