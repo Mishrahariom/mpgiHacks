@@ -7,12 +7,10 @@ const menus = ["About Us", "Schedule", "Prizes", "Sponsors", "FAQs", "Contact"];
 
 const NavbarComponent = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
-  // const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
   
   const handleClick = () => {
-    setIsCollapsed(!isCollapsed)
-    isCollapsed ? setIsCollapsed(false) : setIsCollapsed(true)
-    // setIsCollapsed(true);
+    document.getElementById("navbarToggle").classList.remove("show")
   }
     return (
       <>
@@ -21,10 +19,10 @@ const NavbarComponent = () => {
             <RouterLink to="/">
               <img className="navbar-brand" src='./mpgi_logo.png' style={{"width": "80px"}} />
             </RouterLink>
-            <button className={`navbar-toggler ${isCollapsed ? "" : "collapsed" }`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button className={`navbar-toggler`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-label="Toggle navigation">
               <img src="https://img.icons8.com/ios-glyphs/30/ffffff/menu-rounded.png"/>
             </button>
-            <div className={`collapse navbar-collapse ${isCollapsed ? "" : "show" }`} id="navbarTogglerDemo02">
+            <div className={`collapse navbar-collapse ${isCollapsed ? "" : "show" }`}  id="navbarToggle">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 {
                   menus.map(menu => (

@@ -85,10 +85,15 @@ h1{
 }
 #contact .mpgi-card{
     width: 40rem;
+    border-radius: 2rem;
 }
 
 #contact .contact-team img{
     width: 250px;
+}
+
+#contact .mpgi-logo{
+    border-radius: 2rem 0 0 2rem;
 }
 /***************Theme  Page***********************/
 .team-page{
@@ -212,6 +217,13 @@ h1{
     }
     #contact .mpgi-card{
         width: 20rem;
+    }
+
+    #contact .contact-team{
+        background-color: black;
+    }
+    #contact .mpgi-logo{
+        border-radius: 2rem 2rem 0 0;
     }
 
     #aboutus .about-text{
