@@ -21,48 +21,59 @@ export const founders = [
     {
         name: "Hari Om Mishra",
         photo: "https://i.ibb.co/cTX2b5F/hariom-mishra.jpg",
+        post: "Web Developer🔥",
     },
     {
         name: "Mukul Dubey",
         photo: "https://i.ibb.co/0DPB0k1/mukul-dubey-photo.jpg",
+        post: "Web Developer⭐",
+        
+
 
     },
     {
         name: "Anmol pandey",
         photo: "https://i.ibb.co/2sh8DVg/anmol-pangey.jpg",
+        post: "Management🌟",
         // post: " ",
 
     },
     {
         name: "Aman Jha",
         photo: "https://i.ibb.co/phbhHQS/aman-jha.jpg",
+        post: "Management",
 
     },
     {
         name: "Kartik Srivastava",
         photo: "https://i.ibb.co/2spYW6Q/kartik-srivastava.jpg",
+        post: "Photography",
 
     },
     {
         name: "Mohammad Sarfaraz",
         photo: "https://i.ibb.co/XjgcQpY/mohammad-sarfaraz.jpg",
+        post: "Management",
         // post: "  ",
     },
     {
         name: "Arshveer Singh Arora",
         photo: "https://i.ibb.co/9WjkSD9/arshveer-singh-arora.jpg",
+        post: "Technical💫",
         // post: "",
 
     },
     {
         name: "Risabh Vaish",
         photo: "https://i.ibb.co/Rz6QrK4/rishabh-vaish.jpg",
-        post: " ",
+        post: "Team-helper🔥",
+        // post: " ",
 
     },
     {
         name: "Ashutosh Singh",
         photo: "https://i.ibb.co/D8K1MPP/ashutosh-singh.jpg",
+        post: "Team-helper✨",
 
     }
 ]
