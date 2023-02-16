@@ -1,7 +1,6 @@
 import React from 'react'
 import ProfileCard from '../component/ProfileCard'
-// import { head, photographyHeads, eventHeads, hospitalityHeads, techHead, financeHeads, volunteer } from './teamDetails'
-import {founders, faculty} from './teamDetails'
+import {founders} from './teamDetails'
 
 // const associatesHeads = [
 //     {
@@ -50,13 +49,25 @@ export default function TeamPage() {
     // }
 
     return (
-        <div className="team-page">
-            <div className="container mb-5 text-center">
-                <h1 className="display-3">Faculty Coordinator</h1>
-            </div>
+        <section id="team" className="team-page">
+            <h1 className="text-center">Founders</h1>
 
-            <div className="row g-5 mb-5" >
-                {/* {
+            <div className='row g-5 mb-5'>
+            {
+                        founders.map(obj => (
+                            <div className='col-sm-12 col-md-4 g-5'>
+                                <ProfileCard {...obj} />
+                            </div>
+                        ))
+                    }
+            </div>
+        </section>
+    )
+}
+
+// row row-cols-md-4 row-col-sm-1 g-4
+// row row-cols-3 row-cols-md-4 row-col-sm-1 g-5 mb-5
+{/* {
                     head.map(obj => (
                         <div className={obj.post.includes("President") ? "col-6 width100" : "col-3 width100"} key={obj.name}>
                             <ProfileCard {...obj}  />
@@ -70,36 +81,3 @@ export default function TeamPage() {
                         </div>
                     ))
                 } */}
-                    {
-                        faculty.map(obj => (
-                            <div className='col-sm-12 col-md-6 g-5'>
-                                <ProfileCard {...obj} />
-                            </div>
-                        ))
-                    }
-            </div>
-
-            <div className="container mb-5 text-center">
-                <h1 className="display-3">Founders</h1>
-            </div>
-
-            <div className='row g-5 mb-5'>
-            {
-                        founders.map(obj => (
-                            <div className='col-sm-12 col-md-4 g-5'>
-                                <ProfileCard {...obj} />
-                            </div>
-                        ))
-                    }
-            </div>
-
-            {/* {associatesHeads.map(heads => (
-                renderAssociate(heads)
-            ))} */}
-
-        </div>
-    )
-}
-
-// row row-cols-md-4 row-col-sm-1 g-4
-// row row-cols-3 row-cols-md-4 row-col-sm-1 g-5 mb-5

@@ -5,9 +5,9 @@ const ContactSection = () => {
   return (
     <section id="contact" className='container-fluid pt-sm-5 bg-dark'>
       <div className='row'>
-        <div className='py-5 py-sm-0 col-sm-12 col-md-3 contact-team d-flex flex-column justify-content-start align-items-center'>
+        <div className='py-sm-0 col-sm-12 col-md-3 contact-team d-flex flex-column justify-content-center align-items-center'>
           <img src="./Tech_e_Clan.png" className='' />
-          <Link to="/team" className='btn btn-warning'><span>Want to know the Team ?</span></Link>
+          {/* <Link to="/team" className='btn btn-warning'><span>Want to know the Team ?</span></Link> */}
         </div>
         <div className='col-sm-12 d-flex justify-content-center text-center col-md-6 ps-4'>
           <div className="mpgi-card card my-5 bg-black">
