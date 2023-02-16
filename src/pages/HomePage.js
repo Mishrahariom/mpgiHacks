@@ -1,6 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import {Cover, About, Schedule, Prize, Sponsor, Faq, Theme} from '../sections'
+import {Cover, About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
 
 const HomePage = () => {
 
@@ -9,7 +8,6 @@ const HomePage = () => {
         <div className='horizontal-scroll-container'>
         <Cover />
         <About />
-        {/* <Route path="about" element={<About />} /> */}
         </div>
 
         <Schedule />
@@ -19,6 +17,7 @@ const HomePage = () => {
           <Sponsor />
           <Faq />
           <Theme />
+          <Team />
         </div>
     </>
   )

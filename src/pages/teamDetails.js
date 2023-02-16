@@ -22,59 +22,82 @@ export const founders = [
         name: "Hari Om Mishra",
         photo: "https://i.ibb.co/cTX2b5F/hariom-mishra.jpg",
         post: "Web Developer🔥",
+        facebook: "https://www.facebook.com/profile.php?id=100048557453599&mibextid=ZbWKwL",
+        insta: "https://www.instagram.com/this___is___hariom/",
+        linkedIn: "https://www.linkedin.com/in/hari-om-mishra-613470228/",
+        github: "https://github.com/Mishrahariom",
     },
     {
         name: "Mukul Dubey",
         photo: "https://i.ibb.co/0DPB0k1/mukul-dubey-photo.jpg",
-        post: "Web Developer⭐",
-        
-
-
+        post: "Web Developer",
+        facebook: "https://www.facebook.com/mukul.dubey.5283",
+        insta: "https://www.instagram.com/mukul_1312/",
+        linkedIn: "https://www.linkedin.com/in/mukul1312/",
+        github: "https://github.com/Mukul1312",
     },
     {
         name: "Anmol pandey",
         photo: "https://i.ibb.co/2sh8DVg/anmol-pangey.jpg",
-        post: "Management🌟",
-        // post: " ",
-
+        post: "Management",
+        facebook: "https://www.facebook.com/profile.php?id=100016857793852&mibextid=ZbWKwL",
+        insta: "https://www.instagram.com/x._harshpandey_.x/",
+        linkedIn: "https://www.linkedin.com/in/anmol-pandey-776b4a202/",
+        github: "",
     },
     {
         name: "Aman Jha",
-        photo: "https://i.ibb.co/phbhHQS/aman-jha.jpg",
-        post: "Management",
-
+        photo: "https://i.ibb.co/82k7FyL/aman-jha.jpg",
+        post: "Java Developer",
+        facebook: "https://www.facebook.com/Amanviratjha",
+        insta: "https://www.instagram.com/aman_jr08/",
+        linkedIn: "https://www.linkedin.com/in/aman-jha-b71587217/",
+        github: ""
     },
     {
         name: "Kartik Srivastava",
-        photo: "https://i.ibb.co/2spYW6Q/kartik-srivastava.jpg",
+        photo: "https://i.ibb.co/YZTFxp0/kartik-srivastava.jpg",
         post: "Photography",
-
+        facebook: "",
+        insta: "https://www.instagram.com/x__kunal__x05/",
+        linkedIn: "https://www.linkedin.com/in/kartik-srivastava-84045620a/",
+        github: "",
     },
     {
         name: "Mohammad Sarfaraz",
         photo: "https://i.ibb.co/XjgcQpY/mohammad-sarfaraz.jpg",
         post: "Management",
-        // post: "  ",
+        facebook: "",
+        insta: "https://www.instagram.com/sarfaraz_shek7/",
+        linkedIn: "https://www.linkedin.com/in/mohammad-sarfaraz-75604b228/",
+        github: "",
     },
     {
         name: "Arshveer Singh Arora",
-        photo: "https://i.ibb.co/9WjkSD9/arshveer-singh-arora.jpg",
-        post: "Technical💫",
-        // post: "",
-
+        photo: "https://i.ibb.co/KsgwWkH/arshveer-singh.jpg",
+        post: "Technical",
+        facebook: "",
+        insta: "https://www.instagram.com/thenameisasa/",
+        linkedIn: "https://www.linkedin.com/in/arshveer-singh-arora/",
+        github: "",
     },
     {
         name: "Risabh Vaish",
         photo: "https://i.ibb.co/Rz6QrK4/rishabh-vaish.jpg",
-        post: "Team-helper🔥",
-        // post: " ",
-
+        post: "Team Helper",
+        facebook: "",
+        insta: "https://www.instagram.com/vaish_rishabh/",
+        linkedIn: "https://www.linkedin.com/in/rishabh-vaish-b19838238/",
+        github: "",
     },
     {
         name: "Ashutosh Singh",
         photo: "https://i.ibb.co/D8K1MPP/ashutosh-singh.jpg",
-        post: "Team-helper✨",
-
+        post: "Team Helper",
+        facebook: "",
+        insta: "https://www.instagram.com/conqueror047/",
+        linkedIn: "",
+        github: "",
     }
 ]
 

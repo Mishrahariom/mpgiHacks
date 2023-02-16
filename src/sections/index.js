@@ -6,6 +6,7 @@ import {default as Theme} from './ThemeSection';
 import {default as Sponsor} from './SponsorSection';
 import {default as Faq} from './FaqSection';
 import {default as Contact} from './ContactSection';
+import {default as Team} from './TeamSection';
 
 
-export {Cover,About, Prize, Schedule, Theme, Sponsor, Faq, Contact}
+export {Cover,About, Prize, Schedule, Theme, Sponsor, Faq, Team, Contact}
