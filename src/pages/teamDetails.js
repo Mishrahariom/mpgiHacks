@@ -38,8 +38,8 @@ export const founders = [
     },
     {
         name: "Anmol pandey",
-        photo: "https://i.ibb.co/2sh8DVg/anmol-pangey.jpg",
-        post: "Management",
+        photo: "https://i.ibb.co/YpdqNJK/Anmol-Pandey1-Copy.jpg",
+        post: "Python Developer",
         facebook: "https://www.facebook.com/profile.php?id=100016857793852&mibextid=ZbWKwL",
         insta: "https://www.instagram.com/x._harshpandey_.x/",
         linkedIn: "https://www.linkedin.com/in/anmol-pandey-776b4a202/",
@@ -57,7 +57,7 @@ export const founders = [
     {
         name: "Kartik Srivastava",
         photo: "https://i.ibb.co/YZTFxp0/kartik-srivastava.jpg",
-        post: "Photography",
+        post: "Python Developer ",
         facebook: "",
         insta: "https://www.instagram.com/x__kunal__x05/",
         linkedIn: "https://www.linkedin.com/in/kartik-srivastava-84045620a/",
@@ -75,7 +75,7 @@ export const founders = [
     {
         name: "Arshveer Singh Arora",
         photo: "https://i.ibb.co/KsgwWkH/arshveer-singh.jpg",
-        post: "Technical",
+        post: "Data Scientist ",
         facebook: "",
         insta: "https://www.instagram.com/thenameisasa/",
         linkedIn: "https://www.linkedin.com/in/arshveer-singh-arora/",
@@ -84,7 +84,7 @@ export const founders = [
     {
         name: "Risabh Vaish",
         photo: "https://i.ibb.co/Rz6QrK4/rishabh-vaish.jpg",
-        post: "Team Helper",
+        post: "Java Developer",
         facebook: "",
         insta: "https://www.instagram.com/vaish_rishabh/",
         linkedIn: "https://www.linkedin.com/in/rishabh-vaish-b19838238/",
@@ -93,7 +93,7 @@ export const founders = [
     {
         name: "Ashutosh Singh",
         photo: "https://i.ibb.co/D8K1MPP/ashutosh-singh.jpg",
-        post: "Team Helper",
+        post: "Python Developer",
         facebook: "",
         insta: "https://www.instagram.com/conqueror047/",
         linkedIn: "",
