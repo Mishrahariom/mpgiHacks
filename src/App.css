@@ -7,6 +7,16 @@ body{
     background-color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    /* background-image: url("./mpecOutline.png"); */
+    /* background-size: cover;   */
+    background-image: url("https://i.ibb.co/xYYBKdQ/mpec-Outline.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+
+    /* RHxKZ35 */
+    /* r4T2fx8 */
+    /* xYYBKdQ */
 }
 
 /* .horizontal-scroll-container{
@@ -54,6 +64,7 @@ section{
 #cover .cover-heading{
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
+    /* width: 20px; */
     /* font-size: 4rem; */
 }
 

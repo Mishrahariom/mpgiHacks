@@ -1,8 +1,33 @@
-import React from 'react';
+import React, {useLayoutEffect} from 'react';
 import { TagCloud } from "@frank-mayer/react-tag-cloud";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
 
+gsap.registerPlugin(ScrollTrigger);
 
 const AboutSection = () => {
+  useLayoutEffect(() => {
+    // gsap.to("#motionSVG", {
+    //   scrollTrigger: {
+    //     trigger: "#path",
+    //     start: "top 90%",
+    //     scrub: 1,
+    //     // markers: true
+    //   },
+    //   // duration: 1,
+    //   yoyo: true,
+    //   ease: "none",
+    //   immediateRender: true,
+    //   motionPath: {
+    //     path: "#path",
+    //     align: "#path",
+    //     autoRotate: true,
+    //     alignOrigin: [0.5, 0.5]
+    //   }
+    // });
+    // gsap.fromTo("#aboutclub", {opacity: 0},{opacity: 1, duration: 5});
+  });
+
   return (
     <section id="aboutclub" className="panel bg-primray" style={{minHeight: "100vh"}}>
         <h1 className='text-center'>About Club</h1>

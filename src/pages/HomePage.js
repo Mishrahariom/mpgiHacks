@@ -14,7 +14,7 @@ const HomePage = () => {
 
         <div className=''>
           <Prize />
-          <Sponsor />
+          {/* <Sponsor /> */}
           <Faq />
           <Theme />
           <Team />

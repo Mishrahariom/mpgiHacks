@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-scroll'
 
-const menus = ["About Club", "Schedule", "Prizes", "Sponsors", "FAQs", "Contact",];
+const menus = ["About Club", "Schedule", "Prizes", "FAQs", "Contact",];
 
 
 const NavbarComponent = () => {
