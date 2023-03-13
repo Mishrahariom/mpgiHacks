@@ -11,12 +11,9 @@ const HomePage = () => {
           <Schedule />
           <Prize />
         </div>
-
-        <div className=''>
-          <Faq />
-          <Theme />
-          <Team />
-        </div>
+        <Theme />
+        <Faq />
+        <Team />
     </>
   )
 }

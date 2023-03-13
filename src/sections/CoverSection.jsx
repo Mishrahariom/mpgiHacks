@@ -8,7 +8,7 @@ const Date = () => {
 
 const coverSection = () => {
   return (
-    <section id="cover" className='panel text-center min-vh-100 container-fluid' style={{"padding": "6rem 0 0 0", "color": "gold"}}>
+    <section id="cover" className='panel bg-primary text-center vh-100 container-fluid' style={{"padding": "6rem 0 0 0", "color": "gold"}}>
         <div className='row gx-0 h-100'>
           <div className='col-12 col-lg-8 d-flex flex-column justify-content-center cover-content'>
             <h3 className='club-name'>𝕿𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓</h3>

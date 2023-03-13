@@ -1,7 +1,12 @@
-import React from 'react';
+import React, {useLayoutEffect} from 'react';
 import SchedulePath from '../component/SchedulePath';
 import ScheduleCardComponent from '../component/ScheduleCardComponent';
 import useWindowDimensions from '../component/useWindowDimensions';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const positionsForMobile = [
   {
@@ -85,6 +90,7 @@ const phases = [
 
 
 const ScheduleSection = () => {
+
   const { width } = useWindowDimensions();
   let positions;
 
@@ -94,10 +100,36 @@ const ScheduleSection = () => {
     positions = positionsForLaptop.map(pos => {return {...pos}})
   }
 
+  useLayoutEffect(() => {
+    // let t1 = gsap.timeline();
+    // gsap.to("#phase1", {
+    //   scrollTrigger: {
+    //     trigger: "#schedule-start",
+    //     start: `${positions[1].top}`,
+    //     markers: true,
+    //   },
+    //   scale: 0.7
+    // })
+    for(let i = 0; i< 5; i++ ){
+      gsap.set(`#${phases[i].phaseName.split(" ").join("").toLowerCase()}`, {autoAlpha: 0})
+      gsap.to(`#${phases[i].phaseName.split(" ").join("").toLowerCase()}`, {
+        scrollTrigger: {
+          trigger: "#schedule-start",
+          start: `${positions[i].top} ${positions[4 - i].top}` ,
+          // markers: true,
+        },
+        autoAlpha: 1,
+        ease: "in",
+        duration: 0.5,
+      })
+    }
+  })
+
+
   return (
     <section id="schedule" className='mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
-      <div className='schedule-height position-relative'>
+      <div id="schedule-start" className='schedule-height position-relative'>
         <div className='text-center'><SchedulePath /></div>
         {
           phases.map((phase,i) => (

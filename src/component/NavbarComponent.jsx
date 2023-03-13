@@ -13,7 +13,7 @@ const NavbarComponent = () => {
   }
     return (
       <>
-        <nav className="navbar-glass-effect navbar navbar-expand-lg bg-transparent" style={{"padding": "10px 20px 10px"}}>
+        <nav className="navbar-glass-effect navbar navbar-expand-lg bg-transparent" style={{"padding": "10px 20px 10px", "minHeight": "5rem"}}>
           <div className="container-fluid d-flex flex-row">
             <Link to="cover">
               <img className="navbar-brand" src='./mpgi_logo.png' style={{"width": "80px", "cursor": "pointer"}} />

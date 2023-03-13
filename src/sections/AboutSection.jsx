@@ -15,36 +15,28 @@ const AboutSection = () => {
 
   if(width < 486){
     fontSize = 'fs-6';
-    radius = 3;
+    radius = 2.5;
   } else {
     fontSize = 'fs-2';
-    radius = 2.5;
+    radius = 2;
   }
 
   useLayoutEffect(() => {
+    gsap.set(".about-text", {autoAlpha: 0, scale: 1.2})
     gsap.to(".about-text", {
       scrollTrigger: {
         trigger: '#aboutclub',
-        start: '30%',
-        // start: 'top 50%',
-        markers: true,
-      }
+        start: '40% 50%',
+        // markers: true,
+      },
+      scale: 1,
+      autoAlpha: 1,
+      delay: 0.3,
     })
-    // gsap.fromTo(".about-text",{opacity: 0}, {opacity: 1, duration: 3});
-    // const ele = gsap.timeline('')
-    // gsap.from(".about-text",{autoAlpha: 0,scale: 0.7,})
-    // gsap.to(".about-text",{
-    //   scrollTrigger: {
-    //     markers: true,
-    //     start: "top 10%",
-    //   },
-    //   scale: 1,
-    //   autoAlpha: 1,
-    // });
   });
 
   return (
-    <section id="aboutclub" className="panel bg-primray" style={{minHeight: "100vh"}}>
+    <section id="aboutclub" className="panel vh-100">
         <h1 className='text-center'>About Club</h1>
         {/* <p cla>Maharana Pratap Engineering College, kanpur</p> */}
           <div className='d-flex flex-wrap align-items-center justify-content-evenly'>
