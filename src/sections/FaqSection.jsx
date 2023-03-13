@@ -19,8 +19,8 @@ const faqQuestions = [
     answer: "No worries, Interest in learning and working with technology is much more important than your current experience level."
   },
   {
-    question: "Can I code before coming to the hackathon?",
-    answer: "You can come prepared with half baked codes, write your own APIs and modules."
+    question: "Can i use half-baked code?",
+    answer: "No. Team must choose a theme prior to the event and then pick one problem statement out of four provided. This is to ensure that no half-baked code is developed and that all projects are relevant to the theme."
   },
   {
     question: "What is the team size",
@@ -30,7 +30,25 @@ const faqQuestions = [
     question: "Will there be a mentoring session?",
     answer: "Yes, there will be mentors and industry experts who will guide you during the hackathon."
   },
+  {
+    question: "WILL THERE BE FOOD?",
+    answer: "Yes, delicious food and beverages will be provided throughout the event, courtesy of Kroger Tech."
+  }
 ]
+
+// const faqQuestions = [
+//   {
+//     question: "Q: What is a community hackathon?",
+//     answer: "A: A community hackathon is an event where individuals with an interest in coding come together to collaborate on software projects over a 24-hour period."
+//   },
+//   {
+//     question: "Q: Who can participate in the community hackathon?",
+//     answer: "A: Students from all over India can participate in the community hackathon."
+//   },
+//   {
+//     queston: ""
+//   }
+// ]
 
 const FaqSection = () => {
   return (
@@ -40,7 +58,6 @@ const FaqSection = () => {
       {
         faqQuestions.map(el => <FaqCardComponent question={el.question} answer={el.answer} key={el.question} id={el.question} />)
       }
-      <FaqCardComponent question={"showMore"} />
       </div>
     </section>
   )

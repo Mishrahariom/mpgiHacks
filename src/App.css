@@ -256,6 +256,10 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
         width: 100px;
     }
 
+    .bg-mpgi{
+        background-size: 100%;
+    }
+
     .profile-card{
         width: 20rem;
         height: 27rem;
