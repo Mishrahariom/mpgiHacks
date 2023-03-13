@@ -18,7 +18,7 @@ const AboutSection = () => {
     radius = 3;
   } else {
     fontSize = 'fs-2';
-    radius = 2;
+    radius = 2.5;
   }
 
   useLayoutEffect(() => {

@@ -234,7 +234,8 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     }
 
     #cover .club-img{
-        width: 45%;
+        margin-top: 1rem;
+        width: 50%;
     }
 
     #cover .club-name{
@@ -298,7 +299,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     }
 
     #aboutclub .about-text{
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
     .schedule-height{
