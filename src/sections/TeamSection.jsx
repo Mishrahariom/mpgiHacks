@@ -9,7 +9,7 @@ const TeamSection = () => {
             <div className='row g-5 mb-5'>
             {
                 founders.map(obj => (
-                    <div className='col-sm-12 col-md-4 g-5'>
+                    <div className='col-sm-12 col-md-4 g-5' key={obj.name} id={obj.name}>
                         <ProfileCard {...obj} />
                     </div>
                 ))

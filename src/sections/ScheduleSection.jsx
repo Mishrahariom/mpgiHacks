@@ -106,8 +106,9 @@ const ScheduleSection = () => {
               phaseDetails={phase.phaseDetails}
               posLeft={positions[i].left}
               posRight={positions[i].right}
-              posTop={positions[i].top} 
-              key={phase.phaseName}
+              posTop={positions[i].top}
+              key={i.toString()}
+              id={i.toString()}
             />
           ))
         }

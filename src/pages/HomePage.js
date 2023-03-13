@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <>
         <Cover />
+        <About />
         <div className='bg-mpgi'>
-          <About />
           <Schedule />
           <Prize />
         </div>

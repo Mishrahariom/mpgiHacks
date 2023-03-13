@@ -1,7 +1,6 @@
 import React from 'react'
 
 const SocialHandles = ({facebook, insta, linkedIn, github}) => {
-    console.log(github.length ? "" : "_blank")
   return (
     <div className='mt-2'>
         <a target="_blank" href={facebook} className="mx-2">

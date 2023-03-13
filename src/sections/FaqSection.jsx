@@ -38,7 +38,7 @@ const FaqSection = () => {
       <h1>FAQs</h1>
       <div className='faqs-questions'>
       {
-        faqQuestions.map(el => <FaqCardComponent question={el.question} answer={el.answer}/>)
+        faqQuestions.map(el => <FaqCardComponent question={el.question} answer={el.answer} key={el.question} id={el.question} />)
       }
       <FaqCardComponent question={"showMore"} />
       </div>
