@@ -54,6 +54,7 @@ h1{
 }
 
 section{
+    box-sizing: border-box;
     padding-top: 7rem;
 }
 
@@ -100,9 +101,73 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     font-size: 23px;
 }
 
+#cover .apply-button {
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-out;
+}
+
+.custom-apply-button, .download-btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.custom-apply-button:hover, .custom-apply-button:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+#cover .apply-button:hover {
+    background-position: 0;
+}
+
+.download-btn{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #f1c40f;
+    border-radius: 0.6em;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* background-color: ; */
+}
+
 #cover .cover-dates{
     font-size: 2rem;
-    position: relative
+    position: relative;
+    margin-top: 3rem;
 }
 #cover .cover-dates span{
     position: absolute;
@@ -236,6 +301,10 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
 
 @media (max-width:480px){
 
+    section{
+        padding-top: 7rem;
+    }
+
     h1{
         font-size: 3rem;
     }
@@ -246,11 +315,11 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     }
 
     #cover .club-name{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #cover .cover-heading{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 
     #cover .cover-tagline{
@@ -261,6 +330,10 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
 
     #cover .sponsor-img{
         width: 100px;
+    }
+
+    #cover .cover-dates{
+        margin-top: 0;
     }
 
     .bg-mpgi{

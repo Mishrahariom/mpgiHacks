@@ -121,6 +121,8 @@ const ScheduleSection = () => {
         autoAlpha: 1,
         ease: "in",
         duration: 0.5,
+        yoyo: true,
+        // repeat: -1,
       })
     }
   })

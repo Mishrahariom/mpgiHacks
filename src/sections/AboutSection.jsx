@@ -15,14 +15,14 @@ const AboutSection = () => {
 
   if(width < 486){
     fontSize = 'fs-6';
-    radius = 2.5;
+    radius = 3;
   } else {
     fontSize = 'fs-2';
     radius = 2;
   }
 
   useLayoutEffect(() => {
-    gsap.set(".about-text", {autoAlpha: 0, scale: 1.2})
+    gsap.set(".about-text", {autoAlpha: 0, scale: 0.5})
     gsap.to(".about-text", {
       scrollTrigger: {
         trigger: '#aboutclub',
@@ -36,9 +36,8 @@ const AboutSection = () => {
   });
 
   return (
-    <section id="aboutclub" className="panel vh-100">
+    <section id="aboutclub" className="panel vh-100 overflow-hidden">
         <h1 className='text-center'>About Club</h1>
-        {/* <p cla>Maharana Pratap Engineering College, kanpur</p> */}
           <div className='d-flex flex-wrap align-items-center justify-content-evenly'>
             <TagCloud
                 options={w => ({
