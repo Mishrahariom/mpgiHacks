@@ -1,11 +1,23 @@
 import React, {useLayoutEffect} from 'react';
-import {Cover,AboutHacks,About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
+import {Cover,AboutHacks,About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections';
 import gsap from 'gsap';
+// import useWindowDimensions from '../pages/useWindowDimensions';
+import useWindowDimensions from '../component/useWindowDimensions';
+
 
 const HomePage = () => {
+  const { width } = useWindowDimensions();
+
+  let scale;
+  if(width < 486){
+    scale = 0.7;
+  } else {
+    scale = 0.6;
+  }
+  
     
   useLayoutEffect(() => {
-    gsap.set("#homepage", {scale: 0.5});
+    gsap.set("#homepage", {scale: scale});
   }, [])
 
   return (
