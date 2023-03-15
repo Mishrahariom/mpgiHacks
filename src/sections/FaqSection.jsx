@@ -77,22 +77,6 @@ const FaqSection = () => {
       </div>
     </section>
   )
-  // return (
-  //   <section id="faqs" className='mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
-  //     <h1>FAQs</h1>
-  //     <div className='container'>
-  //       <div className='row g-0'>
-  //       {
-  //         faqQuestions.map(el => 
-  //           <div className='col-3'>
-  //             <FaqCardComponent question={el.question} answer={el.answer} key={el.question} id={el.question} />
-  //           </div>
-  //         )
-  //       }
-  //       </div>
-  //     </div>
-  //   </section>
-  // )
 }
 
 export default FaqSection
