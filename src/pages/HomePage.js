@@ -6,18 +6,18 @@ import useWindowDimensions from '../component/useWindowDimensions';
 
 
 const HomePage = () => {
-  const { width } = useWindowDimensions();
+  // const { width } = useWindowDimensions();
 
-  let scale;
-  if(width < 486){
-    scale = 0.7;
-  } else {
-    scale = 0.6;
-  }
+  // let scale;
+  // if(width < 486){
+  //   scale = 0.9;
+  // } else {
+  //   scale = 0.6;
+  // }
   
     
   useLayoutEffect(() => {
-    gsap.set("#homepage", {scale: scale});
+    gsap.set("#homepage", {scale: 0.99});
   }, [])
 
   return (

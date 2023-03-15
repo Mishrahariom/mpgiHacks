@@ -50,12 +50,12 @@ h1{
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
     /* font-family: 'DM Sans', sans-serif; */
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 section{
     box-sizing: border-box;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
 }
 
 .bg-mpgi{
@@ -93,7 +93,7 @@ background: rgb(0,0,0);
 
 #cover .cover-heading{
     font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 6.5rem;
 }
 
@@ -110,7 +110,7 @@ background: rgb(0,0,0);
     transition: background 300ms ease-out;
 }
 
-.custom-apply-button, .download-btn {
+.custom-apply-button{
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
@@ -139,29 +139,6 @@ background: rgb(0,0,0);
 
 #cover .apply-button:hover {
     background-position: 0;
-}
-
-.download-btn{
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid #f1c40f;
-    border-radius: 0.6em;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    /* background-color: ; */
 }
 
 #cover .cover-dates{
@@ -320,7 +297,7 @@ background: rgb(0,0,0);
     }
 
     #cover .cover-heading{
-        font-weight: 500;
+        /* font-weight: 500; */
         font-size: 2.6rem;
     }
 
