@@ -14,7 +14,7 @@ const coverSection = () => {
             <h3 className='club-name'>𝕿𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓</h3>
             <p className='cover-subtitle mb-0 text-white'>presents</p>
             <h1 className='cover-heading'> MPGI HACKSS 2023</h1>
-            <h2 className='text-white' style={{"marginBottom": "1rem"}}> DREAM CREATE INSPIRE</h2>
+            <h2 className='text-white position-relative' style={{"marginBottom": "1rem"}}> DREAM CREATE INSPIRE</h2>
             <p className='cover-tagline'>24 Hours of Code, Coffee and Collaboration: <span>Join Our Hackathon and Create Magic!</span></p>
             <p className='cover-subtitle text-white'>powered by</p>
             <img src="./H2SLogoWhite.png" className='sponsor-img' />

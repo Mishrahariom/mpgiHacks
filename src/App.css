@@ -329,8 +329,8 @@ background: rgb(0,0,0);
         padding-right: 10px;
         padding-left: 10px;
     }
-    #cover .cover-tagline p{
-        color: white;
+    #cover .cover-tagline span{
+        color: white !important;
     }
 
     #cover .sponsor-img{
@@ -388,6 +388,11 @@ background: rgb(0,0,0);
     }
     #contact .mpgi-logo{
         border-radius: 2rem 2rem 0 0;
+    }
+
+    #abouthacks p {
+        font-size: 16px;
+        text-align: center;
     }
 
     #aboutclub .about-text{
