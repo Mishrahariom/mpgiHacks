@@ -300,11 +300,6 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
 }
 
 @media (max-width:480px){
-
-    section{
-        padding-top: 7rem;
-    }
-
     h1{
         font-size: 3rem;
     }
@@ -371,6 +366,9 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     .mobile-hidden{
         display: none !important;
     }
+    #contact{
+        padding-top: 0;
+    }
     #contact .mpgi-card{
         width: 20rem;
     }
@@ -394,7 +392,10 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
         left: 25%;
         /* text-align: center; */
     }
+    .schedule-card h3{
+        font-size: 1rem;
+    }
     .schedule-card p{
-        font-size: 14px;
+        font-size: 11px;
     }
 }

@@ -34,7 +34,7 @@ const coverSection = () => {
           </div>
           <div className='col-12 col-lg-4 order-first order-md-last d-flex flex-column align-items-center justify-content-center cover-image'>
             <img src='./mpgiHacksPNG.png' className='club-img'/>
-            <p className='cover-dates d-none d-sm-none d-md-block'>18<span>th</span> & 19<span>th</span> April</p>
+            <p className='cover-dates d-none d-sm-none d-md-block'><code>18<span>th</span> & 19<span>th</span> April</code></p>
             {/* <button className='btn btn-warning mt-5 d-none d-sm-none d-md-inline' style={{"width": "200px"}}>Apply</button> */}
           </div>
         </div>
