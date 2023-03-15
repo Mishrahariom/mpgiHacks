@@ -176,6 +176,12 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     
 }
 /****************About Section************************/
+/****************About Hacks Section************************/
+#abouthacks p{
+    font-size: 23px;
+}
+
+/****************About Club Section************************/
 #aboutclub .about-text{
     font-size: 23px;
 }

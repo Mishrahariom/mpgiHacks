@@ -1,12 +1,15 @@
 import React from 'react';
-import {Cover, About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
+import {Cover,AboutHacks,About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
 
 const HomePage = () => {
 
   return (
     <>
-        <Cover />
-        <About />
+        <div className='horizontal-scroll-container'>
+          <Cover />
+          <AboutHacks />
+          <About />
+        </div>
         <div className='bg-mpgi'>
           <Schedule />
           <Prize />
