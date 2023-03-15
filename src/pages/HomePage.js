@@ -1,5 +1,5 @@
 import React from 'react';
-import {Cover, About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
+import {Cover,New,About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
 
 const HomePage = () => {
 
@@ -7,6 +7,7 @@ const HomePage = () => {
     <>
         <div className='horizontal-scroll-container'>
         <Cover />
+        <New/>
         <About />
         </div>
 
