@@ -5,20 +5,15 @@ const HomePage = () => {
 
   return (
     <>
-        <div className='horizontal-scroll-container'>
         <Cover />
         <About />
-        </div>
-
-        <Schedule />
-
-        <div className=''>
+        <div className='bg-mpgi'>
+          <Schedule />
           <Prize />
-          <Sponsor />
-          <Faq />
-          <Theme />
-          <Team />
         </div>
+        <Theme />
+        <Faq />
+        <Team />
     </>
   )
 }

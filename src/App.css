@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Inter:wght@300;500&display=swap');
 
+html,
+body{
+    margin: 0;
+    padding: 0
+
+}
+
 body{
     /* width: 100vw;
     height: 100vh; */
@@ -47,16 +54,127 @@ h1{
 }
 
 section{
+    box-sizing: border-box;
     padding-top: 7rem;
 }
 
+.bg-mpgi{
+    background-image: url("https://i.ibb.co/822xf0w/mpec-Outline.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* 822xf0w */
+    /* RHxKZ35 */
+    /* r4T2fx8 */
+    /* xYYBKdQ */
+
+}
+
 /****************Cover Section************************/
+#cover{
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
+}
+
+#cover .club-img{
+    width: 100%;
+}
+
+#cover .club-name{
+    font-size: 60px;
+}
+
+#cover .sponsor-img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
 #cover .cover-heading{
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
-    /* font-size: 4rem; */
+    font-size: 6.5rem;
 }
 
+#cover .cover-tagline{
+    font-size: 23px;
+}
+
+#cover .apply-button {
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-out;
+}
+
+.custom-apply-button, .download-btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.custom-apply-button:hover, .custom-apply-button:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+#cover .apply-button:hover {
+    background-position: 0;
+}
+
+.download-btn{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #f1c40f;
+    border-radius: 0.6em;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* background-color: ; */
+}
+
+#cover .cover-dates{
+    font-size: 2rem;
+    position: relative;
+    margin-top: 3rem;
+}
+#cover .cover-dates span{
+    position: absolute;
+    margin-top: 2px;
+    font-size: 10px;
+    
+}
 /****************About Section************************/
 #aboutclub .about-text{
     font-size: 23px;
@@ -182,9 +300,41 @@ section{
 }
 
 @media (max-width:480px){
-    .h1{
-
+    h1{
+        font-size: 3rem;
     }
+
+    #cover .club-img{
+        margin-top: 1rem;
+        width: 50%;
+    }
+
+    #cover .club-name{
+        font-size: 40px;
+    }
+
+    #cover .cover-heading{
+        font-size: 2.6rem;
+    }
+
+    #cover .cover-tagline{
+        font-size: 16px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #cover .sponsor-img{
+        width: 100px;
+    }
+
+    #cover .cover-dates{
+        margin-top: 0;
+    }
+
+    .bg-mpgi{
+        background-size: 100%;
+    }
+
     .profile-card{
         width: 20rem;
         height: 27rem;
@@ -205,9 +355,6 @@ section{
         width: 35vw !important;
         height: 15vh !important;
     }
-    #cover .cover-heading{
-        font-size: 4rem;
-    }
     .faqs-questions{
         padding-left: 0;
         justify-content: center;
@@ -218,6 +365,9 @@ section{
     }
     .mobile-hidden{
         display: none !important;
+    }
+    #contact{
+        padding-top: 0;
     }
     #contact .mpgi-card{
         width: 20rem;
@@ -231,7 +381,7 @@ section{
     }
 
     #aboutclub .about-text{
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
     .schedule-height{
@@ -242,7 +392,10 @@ section{
         left: 25%;
         /* text-align: center; */
     }
+    .schedule-card h3{
+        font-size: 1rem;
+    }
     .schedule-card p{
-        font-size: 14px;
+        font-size: 11px;
     }
 }

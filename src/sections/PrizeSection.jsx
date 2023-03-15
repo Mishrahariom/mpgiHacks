@@ -2,7 +2,7 @@ import React from 'react'
 
 const PrizeSection = () => {
   return (
-    <section id="prizes" className='panel mt-5 mt-md-0' style={{"minHeight": "50vh"}}>
+    <section id="prizes" className='mt-5 mt-md-0' style={{"minHeight": "50vh"}}>
       <h1>Prizes</h1>
       <p className='text-center' style={{"color": "gold"}}>Cash and other prizes to be announced soon!</p>
     </section>
