@@ -1,7 +1,14 @@
-import React from 'react'
+import gsap from 'gsap';
+import React, {useLayoutEffect} from 'react'
 import { Link } from 'react-router-dom'
 
 const ContactSection = () => {
+  let scaleX = 0.99,scaleY = 0.99;
+
+  useLayoutEffect(() => {
+    gsap.set("#contact", {scaleX: scaleX, scaleY: scaleY});
+  }, [])
+
   return (
     <section id="contact" className='container-fluid bg-dark'>
       <div className='row'>
