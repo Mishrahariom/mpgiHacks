@@ -57,7 +57,12 @@ section{
     /* font-size: 4rem; */
 }
 
-/****************About Section************************/
+/****************About Hacks Section************************/
+#abouthacks p{
+    font-size: 23px;
+}
+
+/****************About Club Section************************/
 #aboutclub .about-text{
     font-size: 23px;
 }

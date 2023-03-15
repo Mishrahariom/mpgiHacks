@@ -1,14 +1,14 @@
 import React from 'react';
-import {Cover,New,About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
+import {Cover,AboutHacks,About, Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections'
 
 const HomePage = () => {
 
   return (
     <>
         <div className='horizontal-scroll-container'>
-        <Cover />
-        <New/>
-        <About />
+          <Cover />
+          <AboutHacks />
+          <About />
         </div>
 
         <Schedule />
