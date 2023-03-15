@@ -5,9 +5,11 @@ const HomePage = () => {
 
   return (
     <>
+        <div className='horizontal-scroll-container'>
           <Cover />
           <AboutHacks />
           <About />
+        </div>
         <div className='bg-mpgi'>
           <Schedule />
           <Prize />
