@@ -3,7 +3,7 @@ import React from 'react';
 const CoverSection = () => {
   
   return (
-    <section id="cover" className='panel text-center vh-100 container-fluid' style={{"color": "gold"}}>
+    <section id="cover" className='panel text-center vh-100 container-fluid' style={{"color": "gold", "minHeight": "100vh"}}>
         <div className='row gx-0 h-100'>
           <div className='col-12 col-lg-8 d-flex flex-column justify-content-center cover-content'>
             <h3 className='club-name'>𝕿𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓</h3>
@@ -14,7 +14,7 @@ const CoverSection = () => {
             <p className='cover-subtitle text-white'>powered by</p>
             <img src="./H2SLogoWhite.png" className='sponsor-img' />
             <div className='d-flex justify-content-center align-items-center'>
-              <button className='custom-apply-button apply-button'>Apply before 14th March</button>
+              <a href="https://hack2skill.com/hack/mpgihackss" className='text-decoration-none'><button className='custom-apply-button apply-button'>Apply before 14th March</button></a>
             </div>
           </div>
           <div className='col-12 col-lg-4 order-first order-md-last d-flex flex-column align-items-center justify-content-center cover-image'>

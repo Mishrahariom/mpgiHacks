@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewSection() {
   return (
-    <section id="abouthacks" className='container-fluid min-vh-100'>
+    <section id="abouthacks" className='container-fluid vh-100' style={{"minHeight": "100vh"}}>
       <div className='row'>
         <div className='col-12'>
         <h1>About Hacks</h1>
@@ -18,7 +18,7 @@ function NewSection() {
           <p>B.Tech: 3rd & 4th year</p>
           <p>MBA-MCA:All year</p>
           <p>Participant Per Team</p>
-          <p>3-4</p>
+          <p>2-4</p>
         </div>
         <div className='col-12 col-md-6 d-flex flex-column align-items-center jusitfy-content-center'>
           <img style={{ "width":"100px" , }} src="https://i.ibb.co/b6kvVbK/10007963.png" />
@@ -26,7 +26,7 @@ function NewSection() {
           <p>B.Tech: 1st & 2nd year</p>
           <p>BCA-BBA:All year</p>
           <p>Participant Per Team</p>
-          <p>3-4</p>
+          <p>2-4</p>
         </div>
       </div>
     </section>
