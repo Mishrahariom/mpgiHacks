@@ -50,12 +50,12 @@ h1{
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
     /* font-family: 'DM Sans', sans-serif; */
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 section{
     box-sizing: border-box;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
 }
 
 .bg-mpgi{
@@ -73,7 +73,7 @@ section{
 /****************Cover Section************************/
 #cover{
 background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
+/* background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%); */
 }
 
 #cover .club-img{
@@ -93,7 +93,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
 
 #cover .cover-heading{
     font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 6.5rem;
 }
 
@@ -110,7 +110,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     transition: background 300ms ease-out;
 }
 
-.custom-apply-button, .download-btn {
+.custom-apply-button{
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
@@ -139,29 +139,6 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
 
 #cover .apply-button:hover {
     background-position: 0;
-}
-
-.download-btn{
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid #f1c40f;
-    border-radius: 0.6em;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    /* background-color: ; */
 }
 
 #cover .cover-dates{
@@ -320,6 +297,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     }
 
     #cover .cover-heading{
+        /* font-weight: 500; */
         font-size: 2.6rem;
     }
 
@@ -327,6 +305,9 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
         font-size: 16px;
         padding-right: 10px;
         padding-left: 10px;
+    }
+    #cover .cover-tagline span{
+        color: white !important;
     }
 
     #cover .sponsor-img{
@@ -384,6 +365,11 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(171,128,0,1) 100%);
     }
     #contact .mpgi-logo{
         border-radius: 2rem 2rem 0 0;
+    }
+
+    #abouthacks p {
+        font-size: 16px;
+        text-align: center;
     }
 
     #aboutclub .about-text{
