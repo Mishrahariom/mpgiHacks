@@ -36,7 +36,7 @@ const AboutSection = () => {
   });
 
   return (
-    <section id="aboutclub" className="panel vh-100 overflow-hidden" style={{"minHeight": "100vh"}}>
+    <section id="aboutclub" className="panel vh-100 overflow-hidden">
         <h1 className='text-center'>About Club</h1>
           <div className='d-flex flex-wrap align-items-center justify-content-evenly'>
             <TagCloud

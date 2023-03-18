@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewSection() {
   return (
-    <section id="abouthacks" className='container-fluid vh-100' style={{"minHeight": "100vh"}}>
+    <section id="abouthacks" className='container-fluid min-vh-100'>
       <div className='row'>
         <div className='col-12'>
         <h1>About Hacks</h1>

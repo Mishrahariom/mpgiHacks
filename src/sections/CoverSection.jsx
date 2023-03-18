@@ -3,7 +3,7 @@ import React from 'react';
 const CoverSection = () => {
   
   return (
-    <section id="cover" className='panel text-center vh-100 container-fluid' style={{"color": "gold", "minHeight": "100vh"}}>
+    <section id="cover" className='panel text-center vh-100 container-fluid' style={{"color": "gold"}}>
         <div className='row gx-0 h-100'>
           <div className='col-12 col-lg-8 d-flex flex-column justify-content-center cover-content'>
             <h3 className='club-name'>𝕿𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓</h3>
