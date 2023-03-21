@@ -131,7 +131,9 @@ const ScheduleSection = () => {
   return (
     <section id="schedule" className='mt-5 mt-md-0'>
       <h1 className='text-center'>Schedule</h1>
-      <div id="schedule-start" className='schedule-height position-relative'>
+      <h2 className='text-center text-warning'>Not Disclosed Yet</h2>
+
+      {/* <div id="schedule-start" className='schedule-height position-relative'>
         <div className='text-center'><SchedulePath /></div>
         {
           phases.map((phase,i) => (
@@ -146,7 +148,7 @@ const ScheduleSection = () => {
             />
           ))
         }
-      </div>
+      </div> */}
     </section>
   )
 }
