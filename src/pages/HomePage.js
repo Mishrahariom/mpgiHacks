@@ -29,7 +29,7 @@ const HomePage = () => {
           <AboutHacks />
           <About />
         </div>
-        <div className='bg-mpgi'>
+        <div className=''>
           <Schedule />
           <Prize />
         </div>
