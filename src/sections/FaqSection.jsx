@@ -9,8 +9,8 @@ const faqQuestions = [
   },
   {
     no: "q2",
-    question: "How much will it cost?",
-    answer: "Thanks to our college the hackathon is completely free of cost."
+    question: "What is a community hackathon? ",
+    answer: "A community hackathon is an event where individuals with an interest in coding come together to collaborate on software projects over a 24-hour period."
   },
   {
     no: "q3",
