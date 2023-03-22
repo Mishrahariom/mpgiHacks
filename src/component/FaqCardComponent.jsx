@@ -8,7 +8,7 @@ const FaqCardComponent = ({question, answer, id}) => {
           <p className='text-warning'>{question}</p>
         </button>
       </h2>
-      <div id={"collapse" + id} className="accordion-collapse collapse show " aria-labelledby={"headingOne" + id} data-bs-parent="#accordionExample">
+      <div id={"collapse" + id} className="accordion-collapse collapse" aria-labelledby={"headingOne" + id} data-bs-parent="#accordionExample">
         <div className="accordion-body">
           <p className='text-white'>{answer}</p>
         </div>
