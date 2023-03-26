@@ -1,18 +1,6 @@
 import React from 'react';
- const PNG_FILE_ULR = 'http://localhost:3000/Registration guide.pdf';
 
 const CoverSection = () => {
-  const downloadFileAtUrl=(url)=>{
-    const fileName= url.split('/').pop();
-    const aTag = document.createElement('a');
-    aTag.href=url;
-    aTag.setAttribute('download',fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  }
-
-  // const PNG_FILE_ULR = 'http://localhost:3000/Registration guide.pdf'
 
   return (
     <section id="cover" className='panel text-center vh-100 container-fluid' style={{ "color": "gold" }}>
@@ -27,9 +15,10 @@ const CoverSection = () => {
           <img src="./H2SLogoWhite.png" className='sponsor-img' />
           <div className='d-flex justify-content-center align-items-center'>
             <a href="https://hack2skill.com/hack/mpgihackss" className='text-decoration-none'><button className='custom-apply-button apply-button'>Apply before 16th April</button></a>
-            {/* <a href="Registration guide.pdf" className='text-decoration-none'><button download="Registration guide.pdf" className='custom-apply-button apply-button'>Download Regestration guide</button></a> */}
-            <a className='text-decoration-none'><button onClick={()=>{downloadFileAtUrl(PNG_FILE_ULR)}} className='custom-apply-button apply-button'>Download Regestration guide</button></a>
+            <a href="/Registration guide.pdf" className='text-decoration-none custom-apply-button apply-button'  download>Download Regestration guide</a>
+
           </div>
+          
         </div>
         <div className='col-12 col-lg-4 order-first order-md-last d-flex flex-column align-items-center justify-content-center cover-image'>
           <img src='./mpgiHacksPNG.png' className='club-img' />
