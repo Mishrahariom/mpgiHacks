@@ -13,7 +13,7 @@ const CoverSection = () => {
           <p className='cover-tagline'>24 Hours of Code, Coffee and Collaboration:</p>
           <p className='cover-subtitle text-white'>powered by</p>
           <img src="./H2SLogoWhite.png" className='sponsor-img' />
-          <div className='d-flex justify-content-center align-items-center'>
+          <div className='d-flex flex-wrap justify-content-center align-items-center'>
             <a href="https://hack2skill.com/hack/mpgihackss" className='text-decoration-none'><button className='custom-apply-button apply-button'>Apply before 16th April</button></a>
             <a href="/Registration guide.pdf" className='text-decoration-none custom-apply-button apply-button'  download>Download Regestration guide</a>
 

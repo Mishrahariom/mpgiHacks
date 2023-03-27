@@ -47,7 +47,7 @@ const AboutSection = () => {
     </Row>
     <Row>
       <Col xs={12}>
-      <h1  style={{  "color": "gold" , "padding":"30px 40px" , "fontSize":"34px"}}> Day 1</h1>        <div style={{ "fontSize":"21px" }} >
+      <h1  style={{  "color": "gold" , "padding":"30px 40px" , "fontSize":"34px"}}> Day 1  ( 18 april , 2023 )</h1>        <div style={{ "fontSize":"21px" }} >
         <p>Check-In time - 9:00 AM</p>
         <p>Inauguration Ceremony – 10:30 AM</p>
         <p>Problem Statement Allocation & Doubt Solving– 11:50 AM</p>
@@ -58,7 +58,7 @@ const AboutSection = () => {
     </Row>
     <Row>
       <Col xs={12}>
-        <h1  style={{  "color": "gold" , "padding":"30px 40px" , "fontSize":"34px"}}> Day 2</h1>
+        <h1  style={{  "color": "gold" , "padding":"30px 40px" , "fontSize":"34px"}}> Day 2  ( 19 april , 2023 ) </h1>
         <div style={{ "fontSize":"21px" }} >
         <p>	Hackathon Ends – 12:00 PM</p>
         <p>	Project Submission Deadline/ Judging Commences – 12:00 PM</p>
