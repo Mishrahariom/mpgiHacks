@@ -3,7 +3,8 @@ import React from 'react'
 function PrizeSection() {
   return (
     <section id="abouthacks" className='container-fluid min-vh-100'>
-      <div className='row'>
+    <div style={{ "padding":"70px"}}>
+      <div className='row' >
         <div className='col-12'>
         <h1>Prizes</h1>
         </div>
@@ -30,6 +31,7 @@ function PrizeSection() {
         </div>
         <div className='col-12' style={{ "padding":"30px 40px"}}>
         <p className=''  style={{ "text-align": "center"}}><code> GOODIES </code>&<code> CERTIFICATE </code>will provided to Everyone</p>
+        </div>
         </div>
         </div>
     </section>
