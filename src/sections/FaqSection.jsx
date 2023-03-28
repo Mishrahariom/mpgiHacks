@@ -2,21 +2,7 @@ import React from 'react'
 import FaqCardComponent from '../component/FaqCardComponent'
 
 const faqQuestions = [
-  {
-    no: "q1",
-    question: "Who can participate?",
-    answer:  "The hackathon is open for Students from all over India. It is the right place for anyone who's interested in learning and innovating with their ideas."
-  },
-  {
-    no: "q2",
-    question: "What is a community hackathon? ",
-    answer: "A community hackathon is an event where individuals with an interest in coding come together to collaborate on software projects over a 24-hour period."
-  },
-  {
-    no: "q3",
-    question: "How long is the hackathon going to last?",
-    answer: "The hackathon is a 24-hour event."
-  },
+  
   {
     no: "q4",
     question: "What if I don't know how to code?",
@@ -41,7 +27,51 @@ const faqQuestions = [
     no: "q8",
     question: "Will there be food?",
     answer: "Yes, delicious food and beverages will be provided throughout the event, courtesy of Kroger Tech."
+  },
+  {
+    no: "q9",
+    question: "Is there reimbursement for travel?",
+    answer: ""
+  },
+  {
+    no: "q10",
+    question: "Will there be wireless internet access?",
+    answer: "Yes, there will be."
+  },
+  {
+    no: "q11",
+    question: "What should I bring?",
+    answer: "Bring your laptops, mobile phones, Kinects, Oculus Rifts, Leap Motions, wearable computing devices, to whatever inspires you or you want to work with."
+  },
+  {
+    no: "q12",
+    question: " Can i also join remotely?",
+    answer: "No, we want this hackathon to be an onsite event so remotely joining as well as working with a remote team is not allowed."
+
+  },
+  {
+    no: "q13",
+    question: "I have a question or concern what should I do?",
+    answer: "Contact us. Don’t be shy! We are here to help and create a great atmosphere."
+  },
+  {
+    no: "q14",
+    question: "What is the problem we will be hacking to solve?",
+    answer: "Details of the business problem will be announced on the day of the event."
+  },
+  {
+    no: "q15",
+    question: "Do all team members need to be present in person?",
+    answer: "Yes, every team member should be present. If a team member cannot be present during the pitch or can only come later please tell us and we will find a way to manage! This is not an online event."
+  },
+  {
+    no: "q16",
+    question: "How are the winners selected?",
+    answer: "There will be an independent Jury selecting the winners with a rating system: (Implementability, financial benefits, presentation skills, creativity)."
   }
+
+
+
 ]
 
 // const faqQuestions = [
