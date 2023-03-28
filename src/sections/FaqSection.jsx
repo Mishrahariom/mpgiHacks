@@ -2,21 +2,7 @@ import React from 'react'
 import FaqCardComponent from '../component/FaqCardComponent'
 
 const faqQuestions = [
-  {
-    no: "q1",
-    question: "Who can participate?",
-    answer:  "The hackathon is open for Students from all over India. It is the right place for anyone who's interested in learning and innovating with their ideas."
-  },
-  {
-    no: "q2",
-    question: "What is a community hackathon? ",
-    answer: "A community hackathon is an event where individuals with an interest in coding come together to collaborate on software projects over a 24-hour period."
-  },
-  {
-    no: "q3",
-    question: "How long is the hackathon going to last?",
-    answer: "The hackathon is a 24-hour event."
-  },
+  
   {
     no: "q4",
     question: "What if I don't know how to code?",
