@@ -8,36 +8,36 @@ gsap.registerPlugin(ScrollTrigger)
 // const themes = ["Web Development", "App Development", "Blockchain", "AI/ML", "Social Cause"]
 const themes = [
   {
-    themeName: "Web development", 
-    themePhoto: "https://i.ibb.co/sQ5bm2f/WEB-DEVEPMENT1.jpg",
+    themeName: "Web & App development", 
+    themePhoto: "https://i.ibb.co/RpgfhnL/Web-App-Dev.png",
   },
   {
     themeName: "Blockchain", 
-    themePhoto: "https://i.ibb.co/nw6ZFzm/blockchain.jpg",
+    themePhoto: "https://i.ibb.co/Jj5KkKp/Blockchain.png",
   },
   {
     themeName: "Machine learning", 
-    themePhoto: "https://i.ibb.co/L0HC9Qj/alml.jpg",
+    themePhoto: "https://i.ibb.co/T2HJFt2/AI-ML.png",
   },
   {
     themeName: "IOT", 
-    themePhoto: "https://i.ibb.co/qRY79w9/iot.jpg",
+    themePhoto: "https://i.ibb.co/2gRGfX2/IOT.png",
   },
   {
-    themeName: "App development", 
-    themePhoto: "https://i.ibb.co/sK1Tsf0/APP-DEV1.jpg",
+    themeName: "Cyber Security", 
+    themePhoto: "https://i.ibb.co/9HqjJD3/Cyber-Security.png",
   },
   {
     themeName: "Cloud Computing", 
-    themePhoto: "https://i.ibb.co/HpwB8zH/cloud-computing.jpg",
+    themePhoto: "https://i.ibb.co/84mRk0R/Cloud-Computing.png",
   },
   {
     themeName: "Data Science", 
-    themePhoto: "https://i.ibb.co/Qn13zGj/datascei3.jpg",
+    themePhoto: "https://i.ibb.co/c1jtfgr/Data-Science.png",
   },
   {
     themeName: "ARVR", 
-    themePhoto: "https://i.ibb.co/BC0VCjS/ARVR.jpg",
+    themePhoto: "https://i.ibb.co/d7Jzp5x/AR-VR.png",
   }
 ]
 const ThemeSection = () => {
@@ -79,11 +79,10 @@ const ThemeSection = () => {
   return (
     <section id="theme" className='mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
       <h1>Themes</h1>
-      <div id="theme-images" className='theme-mobile d-flex flex-row flex-wrap align-center' style={{"paddingLeft": "6.5rem"}}>
+      <div id="theme-images" className='theme-mobile  d-flex flex-row flex-wrap align-center' style={{"paddingLeft": "6.5rem"}}>
       {
         themes.map((theme) => <ThemeCardComponent {...theme } key={theme.themePhoto} id={theme.themePhoto} />)
       }
-      {/* <ThemeCardComponent theme={"showMore"} /> */}
       </div>
     </section>
   )
