@@ -1,6 +1,7 @@
 import gsap from 'gsap';
-import React, {useLayoutEffect} from 'react'
-import { Link } from 'react-router-dom'
+import React, {useLayoutEffect} from 'react';
+import { Link } from 'react-scroll'
+
 
 const ContactSection = () => {
   let scaleX = 0.99,scaleY = 0.99;
@@ -32,22 +33,20 @@ const ContactSection = () => {
           </div>
         </div>
         <div className='mobile-hidden col-md-2 flex-wrap d-md-flex flex-row flex-md-column justify-content-between align-items-end'>
-          <Link className='contact-links'>Home</Link>
-          <Link className='contact-links'>About Us</Link>
-          <Link className='contact-links'>Schedule</Link>
-          <Link className='contact-links'>Prizes</Link>
-          <Link className='contact-links'>Sponsors</Link>
-          <Link className='contact-links'>FAQ</Link>
-          <Link className='contact-links'>Youtube</Link>
+          <Link to='cover' className='contact-links' style={{"cursor": "pointer"}}>Home</Link>
+          <Link to='abouthacks' className='contact-links' style={{"cursor": "pointer"}}>About Hacks</Link>
+          <Link to='schedule' className='contact-links' style={{"cursor": "pointer"}}>Schedule</Link>
+          <Link to='prizes' className='contact-links' style={{"cursor": "pointer"}}>Prizes</Link>
+          <Link to='themes' className='contact-links' style={{"cursor": "pointer"}}>Themes</Link>
+          <Link to='faqs' className='contact-links' style={{"cursor": "pointer"}}>FAQ</Link>
         </div>
         <div className='col-sm-12 px-4 px-md-0 col-md-1 mt-5 mt-sm-0 d-flex flex-md-column align-items-center justify-content-between'>
             <Link className='' to="https://www.facebook.com/people/Tech-E-Clan/100086454217540/?mibextid=ZbWKwL" ><img src="https://img.icons8.com/material-sharp/28/ffffff/facebook-new.png"/></Link>
             <Link className='' to="https://discord.gg/T6uebtYq" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"/></Link>
             <Link className='' to="https://instagram.com/tech_e_clan?igshid=YmMyMTA2M2Y=" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/></Link>
             <Link className='' to="https://www.linkedin.com/company/tech-e-clan/" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin-circled--v1.png"/></Link>
-            <Link className='' to="" ><img src="https://www.youtube.com/channel/UCihkpfAYZkhtlBqejbmYafg"/></Link>
+            <Link className='' to="https://www.youtube.com/channel/UCihkpfAYZkhtlBqejbmYafg" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png"/></Link>
         </div>
-
       </div>
       <div className="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.025)"}}>
         <p>Made with ❤ by TEC Team MPGI</p>
@@ -58,62 +57,3 @@ const ContactSection = () => {
 }
 
 export default ContactSection
-
-
-
-{
-  <section className="container-fluid bg-dark mt-5 px-2">
-      <div className="">
-        <div className="row">
-          <div className="col-md-6 bg-danger">
-            <div className="card mb-3 bg-black rounded-start-0 rounded-5" style={{"width": "40rem"}}>
-              <div className="row g-0">
-                <div className="col-md-4 pt-3 bg-white pb-5">
-                  <img src="./mpgi_logo.svg" className="img-fluid rounded-start" alt="..." />
-                </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title fw-bold">MPGI Kanpur</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div className='col-md-6 bg-danger'>a</div> */}
-          <div className='col-md-6 bg-warning'>b</div>
-          <div className="mobile-hidden col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h5 className="fw-bold mb-4">SPONSORES</h5>
-            <p className='fs-5'>MPGI</p>
-            <p className='fs-5'>MPEC</p>
-            <p className='fs-5'>MIPS</p>
-            <p className='fs-5'>MPCPS</p>
-          </div>
-          <div className="mobile-hidden col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 className="text-uppercase fw-bold mb-4"> PRICING</h6>
-            <p>Prizes</p>
-            <p>1st Pricing</p>
-            <p>2nd Pricing</p>
-            <p>3rd Pricing</p>
-          </div>
-          <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i className="fas fa-home me-3 text-secondary"></i>Maharana Pratap Group of Institutions</p>
-            <p><i className="fas fa-envelope me-3 text-secondary"></i>tech_e_clan@mpgi.edu.in</p>
-            <p><i className="fas fa-phone me-3 text-secondary"></i>Kanpur</p>
-            <p><i className="fas fa-print me-3 text-secondary"></i> 18002705600 </p>
-          </div>
-          <div className='col-md-1 d-flex py-5 flex-md-column align-items-center justify-content-around'>
-            <a href="#"><img src="https://img.icons8.com/material-sharp/28/ffffff/facebook-new.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin-circled--v1.png"/></a>
-            <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png"/></a>
-          </div>
-        </div>
-      </div>
-      <div className="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.025)"}}>
-        <p>Made with ❤ by TEC Team MPGI</p>
-      </div>
-    </section>
-}

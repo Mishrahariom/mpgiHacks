@@ -173,6 +173,29 @@ background: rgb(0,0,0);
 }
 /* "minHeight": "250vh" */
 /****************Prize Section************************/
+#prizes .prize-trophy{
+    width: 50%;
+}
+
+#prizes .prize-batch{
+    font-size: 50px;
+}
+
+#prizes .prize-goodies{
+    font-size: 35px;
+}
+
+#prizes .prize-text{
+    font-size: 30px;
+}
+
+#prizes .prize-amount{
+    font-size: 20px;
+}
+
+#prizes .prize-worth{
+    font-size: 80px;
+}
 /****************Theme Section************************/
 /****************Sponsor Section************************/
 /****************faqs Section************************/
@@ -390,4 +413,30 @@ background: rgb(0,0,0);
     .schedule-card p{
         font-size: 11px;
     }
+    /****************Prize Section************************/
+    #prizes .prize-trophy{
+        width: 30%;
+        margin-top: 2rem;
+    }
+
+    #prizes .prize-batch{
+        font-size: 35px;
+    }
+
+    #prizes .prize-goodies{
+        font-size: 21px;
+    }
+
+    #prizes .prize-text{
+        font-size: 30px;
+    }
+    
+    #prizes .prize-amount{
+        font-size: 16px;
+    }
+    
+    #prizes .prize-worth{
+        font-size: 35px;
+    }
+    
 }
