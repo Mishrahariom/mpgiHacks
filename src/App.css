@@ -176,6 +176,9 @@ background: rgb(0,0,0);
 .schedule-path{
     text-align: center;
 }
+#schedule h1{
+    font-size: 34px;
+}
 /* "minHeight": "250vh" */
 /****************Prize Section************************/
 #prizes .prize-trophy{
@@ -356,6 +359,11 @@ background: rgb(0,0,0);
         font-size: 14px;
         width: 17rem;
     }
+
+    #schedule h1{
+        font-size: 29px;
+    }
+    
 
     .bg-mpgi{
         background-size: 100%;

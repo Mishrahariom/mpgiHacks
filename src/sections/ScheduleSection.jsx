@@ -58,7 +58,7 @@ const AboutSection = () => {
       </Row>
       <Row>
         <Col xs={12}>
-          <h1 className='text-warning' style={{  "padding":"30px 40px" , "fontSize":"34px"}}> Day 2  ( 19 april , 2023 ) </h1>
+          <h1 className='text-warning' style={{  "padding":"30px 40px"}}> Day 2  ( 19 april , 2023 ) </h1>
           <div className=''>
             <p>	Hackathon Ends – 12:00 PM</p>
             <p>	Project Submission Deadline/ Judging Commences – 12:00 PM</p>
