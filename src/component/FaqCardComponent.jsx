@@ -10,19 +10,11 @@ const FaqCardComponent = ({question, answer, id}) => {
       </h2>
       <div id={"collapse" + id} className="accordion-collapse collapse" aria-labelledby={"headingOne" + id} data-bs-parent="#accordionExample">
         <div className="accordion-body">
-          <p className='text-white'>{answer}</p>
+          <p className='text-white' style={{"fontSize": "15px"}}>{answer}</p>
         </div>
       </div>
     </div>
   )
-  // return (
-  //   <div className='card bg-dark m-3' style={{"width": "16rem", "height": "calc(14rem + 1em)",}} key={id}>
-  //       <div className='card-body'>
-  //           <p className='card-title' style={{"color": "gold", "fontSize": "1.1rem"}}>{question}</p>
-  //           <p className='card-text' style={{"fontSize": "14px"}}>{answer}</p>
-  //       </div>
-  //   </div>
-  // )
 }
 
 export default FaqCardComponent

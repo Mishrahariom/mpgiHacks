@@ -8,18 +8,18 @@ import useWindowDimensions from '../component/useWindowDimensions';
 const TeamSection = () => {
     const { width } = useWindowDimensions();
     let scaleX,scaleY;
-    if(width < 486){
-      scaleX = 0.8;
-      scaleY = 0.8;
-    } else {
-      scaleX = 0.9;
-      scaleY = 0.9;
-    }
+    // if(width < 486){
+    //   scaleX = 0.8;
+    //   scaleY = 0.8;
+    // } else {
+    //   scaleX = 0.9;
+    //   scaleY = 0.9;
+    // }
     
       
-    useLayoutEffect(() => {
-      gsap.set("#team", {scaleX: scaleX, scaleY: scaleY});
-    }, [])
+    // useLayoutEffect(() => {
+    //   gsap.set("#team", {scaleX: scaleX, scaleY: scaleY});
+    // }, [])
       
     return (
         <section id="team" className="team-page">

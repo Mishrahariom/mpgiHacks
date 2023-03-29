@@ -38,7 +38,7 @@ const themes = [
   {
     themeName: "ARVR", 
     themePhoto: "https://i.ibb.co/d7Jzp5x/AR-VR.png",
-  }
+  },
 ]
 const ThemeSection = () => {
   useLayoutEffect(() => {
@@ -77,9 +77,9 @@ const ThemeSection = () => {
     // })
   }, [])
   return (
-    <section id="theme" className='mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
+    <section id="themes" className='mt-5 mt-md-0' style={{"minHeight": "100vh",  "paddingTop": "7rem"}}>
       <h1>Themes</h1>
-      <div id="theme-images" className='theme-mobile  d-flex flex-row flex-wrap align-center' style={{"paddingLeft": "6.5rem"}}>
+      <div id="theme-images" className='row gy-3' style={{"margin": "0"}}>
       {
         themes.map((theme) => <ThemeCardComponent {...theme } key={theme.themePhoto} id={theme.themePhoto} />)
       }

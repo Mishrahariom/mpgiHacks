@@ -24,17 +24,13 @@ const HomePage = () => {
 
   return (
     <div id="homepage">
-        <div className='horizontal-scroll-container'>
-          <Cover />
-          <AboutHacks />
-          <About />
-        </div>
-        <div className=''>
-          <Schedule />
-          <Prize />
-        </div>
+        <Cover />
+        <AboutHacks />
+        <Prize />
+        <Schedule />
         <Theme />
         <Faq />
+        <About />
         <Team />
     </div>
   )

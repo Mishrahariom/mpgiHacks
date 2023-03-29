@@ -69,7 +69,7 @@ const faqQuestions = [
 const FaqSection = () => {
   // const [first, setfirst] = useState(second)
   return (
-    <section id="faqs" className='mt-5 mt-md-0' style={{"minHeight": "100vh"}}>
+    <section id="faqs" className='mt-5 mt-md-0' style={{"minHeight": "100vh", "paddingTop": "7rem"}}>
       <h1>FAQs</h1>
       <div className='container'>
         <div className='accordion accordian-flush'>
