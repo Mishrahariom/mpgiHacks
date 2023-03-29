@@ -74,7 +74,7 @@ function NewSection() {
       <div className='row my-5'>
         <div className="col-12 col-md-6 d-flex flex-column align-items-center jusitfy-content-center">
           <img style={{ "width":"100px",}} src="https://i.ibb.co/gRZzC0c/3985092-removebg-preview.png" />
-          <h1  style={{  "color": "gold" ,"fontSize":"50px","text-align": "center"  }}>Senior Batch</h1>
+          <h1 className='text-warning' style={{  "fontSize":"50px","text-align": "center"  }}>Senior Batch</h1>
           <p>B.Tech: 3rd & 4th year</p>
           <p>MBA-MCA:All year</p>
           <p>Participant Per Team</p>
@@ -82,7 +82,7 @@ function NewSection() {
         </div>
         <div className='col-12 col-md-6 d-flex flex-column align-items-center jusitfy-content-center'>
           <img style={{ "width":"100px" , }} src="https://i.ibb.co/b6kvVbK/10007963.png" />
-          <h1 style={{  "color": "gold" ,"fontSize":"50px"}}>Junior Batch</h1>
+          <h1 className='text-warning' style={{ "fontSize":"50px"}}>Junior Batch</h1>
           <p>B.Tech: 1st & 2nd year</p>
           <p>BCA-BBA:All year</p>
           <p>Participant Per Team</p>

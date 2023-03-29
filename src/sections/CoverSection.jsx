@@ -8,7 +8,7 @@ const CoverSection = () => {
         <div className='col-12 col-lg-8 d-flex flex-column justify-content-center cover-content'>
           <h3 className='club-name'>𝕿𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓</h3>
           <p className='cover-subtitle mb-0 text-white'>presents</p>
-          <h1 className='cover-heading'> MPGI HACKSS 2023</h1>
+          <h1 className='cover-heading text-warning'> MPGI HACKSS 2023</h1>
           <h2 className='text-white position-relative' style={{ "marginBottom": "1rem" }}> DREAM CREATE INSPIRE</h2>
           <p className='cover-tagline'>24 Hours of Code, Coffee and Collaboration:</p>
           <p className='cover-subtitle text-white'>powered by</p>

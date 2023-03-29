@@ -7,12 +7,12 @@ function PrizeSection() {
       <div className='row'>
         <div className='col-sm-12 col-md-6 order-md-2 d-flex flex-column mt-5 align-items-center'>
           <h1 className='prize-worth'>Total Prizes Worth</h1>
-          <h1 className='prize-worth'>Rs. 15000/-</h1>
+          <h1 className='prize-worth text-warning'>Rs. 15000/-</h1>
           <h1 className='mt-5 prize-goodies'>Certificate & Goodies will provided to Everyone</h1>
         </div>
         <div className='col-sm-12 col-md-3 order-md-1 d-flex flex-column align-items-center'>
           <img className='prize-trophy' src="https://i.ibb.co/YjkQJ1g/clipart-png-trophy-3.webp" />
-          <p className='prize-batch'>Junior batch</p>
+          <p className='prize-batch text-warning'>Junior batch</p>
           <p className='prize-text'>1st Prize</p>
           <p className='prize-amount'>Rs. 5000/-</p>
           <p className='prize-text'>2nd Prize</p>
@@ -20,7 +20,7 @@ function PrizeSection() {
         </div>
         <div className='col-sm-12 col-md-3 order-md-3 d-flex flex-column align-items-center'>
           <img className='prize-trophy' src="https://i.ibb.co/YjkQJ1g/clipart-png-trophy-3.webp" />
-          <p className='prize-batch'>Senior batch</p>
+          <p className='prize-batch text-warning'>Senior batch</p>
           <p className='prize-text'>1st Prize</p>
           <p className='prize-amount'>Rs. 5000/-</p>
           <p className='prize-text'>2nd Prize</p>
