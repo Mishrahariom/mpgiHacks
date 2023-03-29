@@ -67,7 +67,7 @@ function NewSection() {
             </TagCloud>
           </div>
           <div className='col-sm-12 col-md-6 d-flex justify-content-center align-items-center'>
-            <p className=''><code>MPGI HACKSS - 2023</code> is an event organized by the technical club of the CSE department of <code>MPGI Kanpur</code> (T𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓). This event aims to bring like-minded coders and enthusiasts from all over the nation together and inculcate coding culture among the students at the institute through its programming Hackathon. We aspire to recognize the student's limitless potential to tackle real-world problems of public interest, in a short span of time utilizing the complete freedom for use of concepts and platforms.</p>
+            <p className=''><code className='text-warning'>MPGI HACKSS - 2023</code> is an event organized by the technical club of the CSE department of <code className='text-warning'>MPGI Kanpur</code> (T𝖊𝖈𝖍-𝖊-𝖈𝖑𝖆𝖓). This event aims to bring like-minded coders and enthusiasts from all over the nation together and inculcate coding culture among the students at the institute through its programming Hackathon. We aspire to recognize the student's limitless potential to tackle real-world problems of public interest, in a short span of time utilizing the complete freedom for use of concepts and platforms.</p>
           </div>
         </div>
       </div>

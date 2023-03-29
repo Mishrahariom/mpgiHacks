@@ -22,7 +22,7 @@ const CoverSection = () => {
         </div>
         <div className='col-12 col-lg-4 order-first order-md-last d-flex flex-column align-items-center justify-content-center cover-image'>
           <img src='./mpgiHacksPNG.png' className='club-img' />
-          <p className='cover-dates d-none d-sm-none d-md-block'><code className='text-white'>18<span>th</span> & 19<span>th</span> April</code></p>
+          <p className='cover-dates d-none d-sm-none d-md-block'><code className=' text-warning'>18<span>th</span> - 19<span>th</span> April</code></p>
         </div>
       </div>
     </section>

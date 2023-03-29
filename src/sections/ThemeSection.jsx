@@ -36,7 +36,7 @@ const themes = [
     themePhoto: "https://i.ibb.co/c1jtfgr/Data-Science.png",
   },
   {
-    themeName: "ARVR", 
+    themeName: "AR & VR", 
     themePhoto: "https://i.ibb.co/d7Jzp5x/AR-VR.png",
   },
 ]
@@ -79,7 +79,7 @@ const ThemeSection = () => {
   return (
     <section id="themes" className='mt-5 mt-md-0' style={{"minHeight": "100vh",  "paddingTop": "7rem"}}>
       <h1>Themes</h1>
-      <div id="theme-images" className='row gy-3' style={{"margin": "0"}}>
+      <div id="theme-images" className='row gy-4' style={{"margin": "0"}}>
       {
         themes.map((theme) => <ThemeCardComponent {...theme } key={theme.themePhoto} id={theme.themePhoto} />)
       }

@@ -43,8 +43,8 @@ const AboutSection = () => {
             <img src="./mpecOutline.png" style={{"width": "70%"}} />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <p className='about-text'>The <code className='about-text'>Tech-e-clan (The Technical Club)</code> aims to enhance and improvise education, training, and research in technical education fields, and to create entrepreneurship and a conducive environment for pursuing technical education by promoting creative ideas & innovations of students & facilitate manifestation to them.</p>
-            <p className='about-text'>The Tech_e_clan Club was established by the <code>MPGI CSE Department</code> with the foundational support of our hon ’able support of <code className='about-text'>Dr. Saurabh Singh, HOD</code> of the Computer Science & Engineering Department.</p>
+            <p className='about-text'>The <code className='about-text text-warning'>Tech-e-clan (The Technical Club)</code> aims to enhance and improvise education, training, and research in technical education fields, and to create entrepreneurship and a conducive environment for pursuing technical education by promoting creative ideas & innovations of students & facilitate manifestation to them.</p>
+            <p className='about-text'>The Tech_e_clan Club was established by the <code className='text-warning'>MPGI CSE Department</code> with the foundational support of our hon ’able support of <code className='about-text text-warning'>Dr. Saurabh Singh, HOD</code> of the Computer Science & Engineering Department.</p>
           </div>
         </div>
     </section>  )

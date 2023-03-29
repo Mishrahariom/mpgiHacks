@@ -11,7 +11,7 @@ const ContactSection = () => {
   }, [])
 
   return (
-    <section id="contact" className='container-fluid bg-dark'>
+    <section id="contact" className='container-fluid'>
       <div className='row'>
         <div className='py-sm-0 col-sm-12 col-md-3 contact-team d-flex flex-column justify-content-center align-items-center'>
           <img src="./Tech_e_Clan.png" className='' />

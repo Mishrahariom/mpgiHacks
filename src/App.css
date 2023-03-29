@@ -194,7 +194,7 @@ background: rgb(0,0,0);
 }
 
 #prizes .prize-worth{
-    font-size: 80px;
+    font-size: 65px;
 }
 /****************Theme Section************************/
 /****************Sponsor Section************************/
@@ -223,6 +223,12 @@ background: rgb(0,0,0);
 #contact .mpgi-logo{
     border-radius: 2rem 0 0 2rem;
 }
+
+#contact .card-body{
+    border: 1px solid white;
+    border-radius: 0rem 2rem 2rem 0 !important;
+}
+
 /***************Theme  Page***********************/
 .team-page{
     min-height: 100vh;
@@ -341,6 +347,10 @@ background: rgb(0,0,0);
         margin-top: 0;
     }
 
+    #cover .apply-button {
+        font-size: 14px;
+    }
+
     .bg-mpgi{
         background-size: 100%;
     }
@@ -379,6 +389,7 @@ background: rgb(0,0,0);
     #contact{
         padding-top: 0;
     }
+
     #contact .mpgi-card{
         width: 20rem;
     }
@@ -388,6 +399,10 @@ background: rgb(0,0,0);
     }
     #contact .mpgi-logo{
         border-radius: 2rem 2rem 0 0;
+    }
+    
+    #contact .card-body{
+        border-radius: 0rem 0 2rem 2rem !important;
     }
 
     #abouthacks p {
