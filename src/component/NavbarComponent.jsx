@@ -32,7 +32,7 @@ const NavbarComponent = () => {
                 }
               </ul>
             </div>
-            <Link to="team">
+            <Link to="aboutclub">
               <img className="navbar-brand" src="./Tech_e_Clan.png" style={{"width": "80px", "cursor": "pointer"}} />
             </Link>
           </div>

@@ -15,7 +15,11 @@ const ContactSection = () => {
       <div className='row'>
         <div className='py-sm-0 col-sm-12 col-md-3 contact-team d-flex flex-column justify-content-center align-items-center'>
           <img src="./Tech_e_Clan.png" className='' />
-          {/* <Link to="/team" className='btn btn-warning'><span>Want to know the Team ?</span></Link> */}
+          <a href="mailto: tech_e_clan@mpgi.edu.in" className='text-decoration-none'>
+            <button className='custom-apply-button apply-button'>
+              <p style={{"marginBottom": "0"}}>Connect us over Email</p>
+            </button>
+          </a>
         </div>
         <div className='col-sm-12 d-flex justify-content-center text-center col-md-6 ps-4'>
           <div className="mpgi-card card my-5 bg-black">
@@ -41,18 +45,17 @@ const ContactSection = () => {
           <Link to='faqs' className='contact-links' style={{"cursor": "pointer"}}>FAQ</Link>
         </div>
         <div className='col-sm-12 px-4 px-md-0 col-md-1 mt-5 mt-sm-0 d-flex flex-md-column align-items-center justify-content-between'>
-            <Link className='' to="https://www.facebook.com/people/Tech-E-Clan/100086454217540/?mibextid=ZbWKwL" ><img src="https://img.icons8.com/material-sharp/28/ffffff/facebook-new.png"/></Link>
-            <Link className='' to="https://discord.gg/T6uebtYq" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"/></Link>
-            <Link className='' to="https://instagram.com/tech_e_clan?igshid=YmMyMTA2M2Y=" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/></Link>
-            <Link className='' to="https://www.linkedin.com/company/tech-e-clan/" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin-circled--v1.png"/></Link>
-            <Link className='' to="https://www.youtube.com/channel/UCihkpfAYZkhtlBqejbmYafg" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png"/></Link>
+            <a className='' href="https://www.facebook.com/people/Tech-E-Clan/100086454217540/?mibextid=ZbWKwL" ><img src="https://img.icons8.com/material-sharp/28/ffffff/facebook-new.png"/></a>
+            <a className='' href="https://discord.gg/T6uebtYq" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"/></a>
+            <a className='' href="https://instagram.com/tech_e_clan?igshid=YmMyMTA2M2Y=" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/></a>
+            <a className='' href="https://www.linkedin.com/company/tech-e-clan/" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin-circled--v1.png"/></a>
+            <a className='' href="https://www.youtube.com/channel/UCihkpfAYZkhtlBqejbmYafg" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png"/></a>
         </div>
       </div>
       <div className="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.025)"}}>
-        <p>Made with ❤ by TEC Team MPGI</p>
+        <p>Made with <span style={{"color": "red"}}>&#9829;</span> by TECH Team MPGI</p>
       </div>
     </section>
-    
   )
 }
 

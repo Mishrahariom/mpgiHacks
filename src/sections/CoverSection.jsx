@@ -14,9 +14,8 @@ const CoverSection = () => {
           <p className='cover-subtitle text-white'>powered by</p>
           <img src="./H2SLogoWhite.png" className='sponsor-img' />
           <div className='d-flex flex-wrap justify-content-center align-items-center'>
-            <a href="https://hack2skill.com/hack/mpgihackss" className='text-decoration-none'><button className='custom-apply-button apply-button'>Apply before 16th April</button></a>
-            <a href="/Registration guide.pdf" className='text-decoration-none custom-apply-button apply-button'  download>Download Regestration guide</a>
-
+            <a href="https://hack2skill.com/hack/mpgihackss" className='text-decoration-none'><button className='custom-apply-button apply-button'><p>Apply before 16th April</p></button></a>
+            <a href="/Registration guide.pdf" className='text-decoration-none custom-apply-button apply-button'  download><p>Download Regestration guide</p></a>
           </div>
           
         </div>

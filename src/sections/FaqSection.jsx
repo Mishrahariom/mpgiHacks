@@ -81,6 +81,14 @@ const FaqSection = () => {
           )
         }
         </div>
+        <div className='mt-5 d-flex flex-column align-items-center'>
+          <p className='fs-4 text-center'>Still have doubts? Let's connect over Discord Server.</p>
+          <a href="https://discord.com/invite/T6uebtYq" className='text-decoration-none'>
+            <button className='custom-apply-button apply-button'>
+              <p style={{"marginBottom": "0"}}>Join the Discord</p>
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   )
