@@ -141,6 +141,11 @@ background: rgb(0,0,0);
     background-position: 0;
 }
 
+#cover .apply-button p{
+    width: 20rem;
+    margin-bottom: 0;
+}
+
 #cover .cover-dates{
     font-size: 2rem;
     position: relative;
@@ -171,8 +176,34 @@ background: rgb(0,0,0);
 .schedule-path{
     text-align: center;
 }
+#schedule h1{
+    font-size: 34px;
+}
 /* "minHeight": "250vh" */
 /****************Prize Section************************/
+#prizes .prize-trophy{
+    width: 50%;
+}
+
+#prizes .prize-batch{
+    font-size: 50px;
+}
+
+#prizes .prize-goodies{
+    font-size: 35px;
+}
+
+#prizes .prize-text{
+    font-size: 30px;
+}
+
+#prizes .prize-amount{
+    font-size: 20px;
+}
+
+#prizes .prize-worth{
+    font-size: 65px;
+}
 /****************Theme Section************************/
 /****************Sponsor Section************************/
 /****************faqs Section************************/
@@ -200,6 +231,12 @@ background: rgb(0,0,0);
 #contact .mpgi-logo{
     border-radius: 2rem 0 0 2rem;
 }
+
+#contact .card-body{
+    border: 1px solid white;
+    border-radius: 0rem 2rem 2rem 0 !important;
+}
+
 /***************Theme  Page***********************/
 .team-page{
     min-height: 100vh;
@@ -219,8 +256,8 @@ background: rgb(0,0,0);
 
 /****************Profile Card************************/
 .profile-card{
-    width: 15rem;
-    height: 21rem;
+    width: 14rem;
+    height: 18rem;
     padding: 8em 0 0;
     color: white;
     /* background-color:  rgba(0, 0, 0, 0.4); */
@@ -318,13 +355,23 @@ background: rgb(0,0,0);
         margin-top: 0;
     }
 
+    #cover .apply-button p {
+        font-size: 14px;
+        width: 17rem;
+    }
+
+    #schedule h1{
+        font-size: 29px;
+    }
+    
+
     .bg-mpgi{
         background-size: 100%;
     }
 
     .profile-card{
-        width: 20rem;
-        height: 27rem;
+        width: 17rem;
+        height: 22rem;
     }
 
     .profile-card-content{
@@ -356,6 +403,7 @@ background: rgb(0,0,0);
     #contact{
         padding-top: 0;
     }
+
     #contact .mpgi-card{
         width: 20rem;
     }
@@ -365,6 +413,10 @@ background: rgb(0,0,0);
     }
     #contact .mpgi-logo{
         border-radius: 2rem 2rem 0 0;
+    }
+    
+    #contact .card-body{
+        border-radius: 0rem 0 2rem 2rem !important;
     }
 
     #abouthacks p {
@@ -390,4 +442,30 @@ background: rgb(0,0,0);
     .schedule-card p{
         font-size: 11px;
     }
+    /****************Prize Section************************/
+    #prizes .prize-trophy{
+        width: 30%;
+        margin-top: 2rem;
+    }
+
+    #prizes .prize-batch{
+        font-size: 35px;
+    }
+
+    #prizes .prize-goodies{
+        font-size: 21px;
+    }
+
+    #prizes .prize-text{
+        font-size: 30px;
+    }
+    
+    #prizes .prize-amount{
+        font-size: 16px;
+    }
+    
+    #prizes .prize-worth{
+        font-size: 35px;
+    }
+    
 }

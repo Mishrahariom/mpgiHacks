@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-scroll'
 
-const menus = ["About Club", "Schedule", "Prizes", "FAQs", "Contact",];
+const menus = ["About Hacks", "Prizes", "Schedule", "Themes", "FAQs", "Contact",];
 
 
 const NavbarComponent = () => {
@@ -32,7 +32,7 @@ const NavbarComponent = () => {
                 }
               </ul>
             </div>
-            <Link to="team">
+            <Link to="aboutclub">
               <img className="navbar-brand" src="./Tech_e_Clan.png" style={{"width": "80px", "cursor": "pointer"}} />
             </Link>
           </div>
