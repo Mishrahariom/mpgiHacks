@@ -1,6 +1,7 @@
 import {default as Cover} from './CoverSection';
 import {default as AboutHacks} from './AboutHacks';
 import {default as About} from './AboutSection';
+import {default as TravelSection} from './TravelSection';
 import {default as Prize} from './PrizeSection';
 import {default as Schedule} from './ScheduleSection';
 import {default as Theme} from './ThemeSection';
@@ -10,4 +11,4 @@ import {default as Contact} from './ContactSection';
 import {default as Team} from './TeamSection';
 
 
-export {Cover,AboutHacks,About, Prize, Schedule, Theme, Sponsor, Faq, Team, Contact}
+export {Cover,AboutHacks,About,TravelSection, Prize, Schedule, Theme, Sponsor, Faq, Team, Contact}

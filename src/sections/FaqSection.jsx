@@ -25,7 +25,7 @@ const faqQuestions = [
   {
     no: "q5",
     question: "Will there be a mentoring session?",
-    answer: "Yes, there will be mentors and industry experts who will guide you during the hackathon."
+    answer: "Yes, there will be judges and industry experts who will guide you during the hackathon."
   },
   {
     no: "q6",
@@ -50,7 +50,7 @@ const faqQuestions = [
   {
     no: "q10",
     question: "Can i also join remotely?",
-    answer: "No, we want this hackathon to be an onsite event so remotely joining as well as working with a remote team is not allowed."
+    answer: "No, we want this hackathon to be an offline event so remotely joining as well as working with a remote team is not allowed."
 
   },
   {
@@ -83,7 +83,7 @@ const FaqSection = () => {
         </div>
         <div className='mt-5 d-flex flex-column align-items-center'>
           <p className='fs-4 text-center'>Still have doubts? Let's connect over Discord Server.</p>
-          <a href="https://discord.com/invite/T6uebtYq" className='text-decoration-none'>
+          <a href="https://discord.com/invite/EADG6ANSb7" className='text-decoration-none'>
             <button className='custom-apply-button apply-button'>
               <p style={{"marginBottom": "0"}}>Join the Discord</p>
             </button>
