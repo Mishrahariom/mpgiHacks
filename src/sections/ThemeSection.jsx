@@ -17,11 +17,11 @@ const themes = [
   },
   {
     themeName: "AI / ML", 
-    themePhoto: "https://i.ibb.co/pfSGdjB/229372667-c103b2ff-49a0-40ac-a4b2-08c008d9dee7.png",
+    themePhoto: "https://i.ibb.co/T2HJFt2/AI-ML.png",
   },
   {
     themeName: "IOT", 
-    themePhoto: "https://i.ibb.co/2gRGfX2/IOT.png",
+    themePhoto: "https://i.ibb.co/pfSGdjB/229372667-c103b2ff-49a0-40ac-a4b2-08c008d9dee7.png",
   },
   {
     themeName: "Cyber Security", 

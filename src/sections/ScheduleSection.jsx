@@ -53,6 +53,7 @@ const AboutSection = () => {
        
           <p>Hackathon Commences – 11:00 PM</p>
           <p>Review Round – 6:00 PM</p>
+          <p> Day 1 Ends </p>
           </div>
         </Col>
       </Row>

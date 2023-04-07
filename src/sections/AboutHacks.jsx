@@ -91,7 +91,7 @@ function NewSection() {
 
         <div className='col-12 col-md-12 d-flex flex-column align-items-center jusitfy-content-center'>
 
-          <h1  style={{ "fontSize": "50px" }}>Note:-</h1>
+          <h1  style={{ "fontSize": "50px" }}>  Note </h1>
           <div style={{ "padding": "30px 40px", }}>
             <p>its a recommednation from <code className='text-warning'>organizers</code> to all the<code className='text-warning'> participants</code> to form your <code className='text-warning'> teams </code>
               in such a way that you can gather members where each possesss different domain expertise like

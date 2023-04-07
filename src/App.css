@@ -204,6 +204,14 @@ background: rgb(0,0,0);
 #prizes .prize-worth{
     font-size: 65px;
 }
+
+/****************travel section ************************/
+
+#travels .travels-terms{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
 /****************Theme Section************************/
 /****************Sponsor Section************************/
 /****************faqs Section************************/
@@ -467,5 +475,21 @@ background: rgb(0,0,0);
     #prizes .prize-worth{
         font-size: 35px;
     }
+
+    /****************Travel Section************************/
+
+    #travels .travels-list{
+        font-size: 13px;
+    }
+
+    /* #travels .travels-terms{
+        font-size: 21px;
+    } */
+
+    #travels .travels-terms{
+        font-size: 21px;
+    }
+
+
     
 }
