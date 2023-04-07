@@ -53,7 +53,7 @@ const AboutSection = () => {
        
           <p>Hackathon Commences – 11:00 PM</p>
           <p>Review Round – 6:00 PM</p>
-          <p> Day 1 Ends </p>
+          <p> Day 1 Ends : 07:00 PM </p>
           </div>
         </Col>
       </Row>
@@ -61,10 +61,10 @@ const AboutSection = () => {
         <Col xs={12}>
           <h1 className='text-warning' style={{  "padding":"30px 40px"}}> Day 2  ( 19 april , 2023 ) </h1>
           <div className=''>
-            <p>Guest talk session - 12:15 PM</p>
+            <p>Day 2 Reporting time  - 08:PM AM</p>
             <p>Hackathon Resumes - 9:00 AM</p>
-            <p>Day 2 Reporting time  - 08:PM PM</p>
-            <p>	Project Submission Deadline/ Judging Commences – 12:00 PM</p>
+            <p>Guest talk session - 12:15 PM</p>
+            <p>	Project Submission Deadline / Judging Commences – 12:00 PM</p>
             <p>	Closing Ceremony - 05:00 PM</p>
             <p>Hackathon end - 07:00 PM </p>
             
