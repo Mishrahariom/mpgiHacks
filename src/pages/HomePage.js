@@ -1,5 +1,5 @@
 import React, {useLayoutEffect} from 'react';
-import {Cover,AboutHacks,About,TravelSection,Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections';
+import {Cover,AboutHacks,About,Travel,Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections';
 import gsap from 'gsap';
 import useWindowDimensions from '../component/useWindowDimensions';
 
@@ -8,7 +8,6 @@ const HomePage = () => {
   const { width } = useWindowDimensions();
   let scaleX,scaleY;
 
-  let scale;
   if(width < 486){
     scaleX = 0.99;
     scaleY = 0.99
@@ -26,7 +25,7 @@ const HomePage = () => {
     <div id="homepage">
         <Cover />
         <AboutHacks />
-        <TravelSection />
+        <Travel />
         <Prize />
         <Schedule />
         <Theme />

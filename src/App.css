@@ -207,7 +207,11 @@ background: rgb(0,0,0);
 
 /****************travel section ************************/
 
-#travel .travel-terms{
+#travelexpense{
+    height: 100vh;
+}
+
+#travelexpense .travelexpense-terms{
     font-family: 'Chakra Petch', sans-serif;
     font-size: 50px;
     text-align: center;
@@ -479,11 +483,15 @@ background: rgb(0,0,0);
 
     /****************Travel Section************************/
 
-    #travel .travel-list{
+    #travelexpense{
+        height: fit-content;
+    }
+
+    #travelexpense .travelexpense-list{
         font-size: 13px;
     }
 
-    #travel .travel-terms{
+    #travelexpense .travelexpense-terms{
         font-size: 21px;
     }
 }

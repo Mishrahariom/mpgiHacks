@@ -92,16 +92,12 @@ function NewSection() {
         <div className='col-12 col-md-12 d-flex flex-column align-items-center jusitfy-content-center'>
 
           <h1  style={{ "fontSize": "50px" }}>  Note </h1>
-          <div style={{ "padding": "30px 40px", }}>
-            <p>its a recommednation from <code className='text-warning'>organizers</code> to all the<code className='text-warning'> participants</code> to form your <code className='text-warning'> teams </code>
+          <div className='text-center' style={{ "padding": "30px 40px"}}>
+            <p>Its a recommendations from <span className='text-warning'>Organizers</span> to all the<span className='text-warning'> participants</span> to form your <span className='text-warning'> teams </span>
               in such a way that you can gather members where each possesss different domain expertise like
-              <code className='text-warning'> AI/ML , Web/App , Development </code> , and <code className='text-warning'> Data Science. </code> </p>
+              <span className='text-warning'> AI & ML, Web &App Development,</span> and <span className='text-warning'> Communication & Presentation skill. </span> </p>
           </div>
         </div>
-
-
-
-
       </div>
 
     </section>
