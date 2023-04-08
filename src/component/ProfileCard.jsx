@@ -10,13 +10,15 @@ export default function ProfileCard({
     insta,
     linkedIn,
     github,
+    number,
 }) {
     return (
         <div>
             <div className="profile-card" style={{backgroundImage:`url(${photo})`}}>
                 <div className="profile-card-content">
                    <h3 className="profile-card-title">{name}</h3>
-                   <p className="">{post}</p>
+                   <p className="">{number}</p>
+                   {/* <p>{number}</p> */}
                    <SocialHandles insta={insta} facebook={facebook} linkedIn={linkedIn} github={github} />
                 </div>
             </div>

@@ -5,7 +5,7 @@ const faqQuestions = [
   {
     no: "q1",
     question: "What if I don't know how to code?",
-    answer: "No worries, Interest in learning and working with technology is much more important than your current experience level."
+    answer: "Not knowing how to code should not hold you back! There are a couple of ways to approach this. Firstly, you can create presentations as an alternative way to communicate your ideas without the need to write any code. Tools like Tableau and WordPress can be useful for creating no-code solutions that showcase your ideas effectively. Additionally, if you have an interest in technology, that's the most important factor. Your current coding experience level is not a barrier. You can also present a no-code solution that clearly demonstrates your working prototype."
   },
   {
     no: "q2",
@@ -20,17 +20,17 @@ const faqQuestions = [
   {
     no: "q4",
     question: "Can i bring my own Problem Statements?",
-    answer: "No, Teams will receive the problem statements on the day of the Hackathon. It is recommended for teams to have a diverse skill set in fields such as AI/ML, web development, and blockchain. Additionally, good communication and presentation skills are essential for pitching solutions"
+    answer: "For the Junior Batch, the participants are given this relaxation to bring their own problem statements based on any domain. But for the senior batch, the teams will receive the problem statements on the day of the Hackathon. It is recommended for teams to have a diverse skill set in fields such as AI/ML, web development, and blockchain. Additionally, good communication and presentation skills are essential for pitching solutions."
   },
   {
     no: "q5",
     question: "Will there be a mentoring session?",
-    answer: "Yes, there will be mentors and industry experts who will guide you during the hackathon."
+    answer: "No, but if needed you may consult a mentor during review round."
   },
   {
     no: "q6",
     question: "Are food and accommodation provided during the hackathon?",
-    answer: "Good news! Our college is providing free food and accommodation for participants to rest and take naps during the hackathon.",
+    answer: "Yes timely meals will be provided to all but accommodations, only for the outstation students.",
   },
   {
     no: "q7",
@@ -45,12 +45,12 @@ const faqQuestions = [
   {
     no: "q9",
     question: "What should I bring?",
-    answer: "Join us with your laptops, mobile phones, and wearable computing devices, along with your high spirits, to collaborate with people in a 24-hour hackathon."
+    answer: "Join us with your laptops, mobile phones, and wearable computing devices, along with your high spirits, to collaborate with people in the two days hackathon."
   },
   {
     no: "q10",
     question: "Can i also join remotely?",
-    answer: "No, we want this hackathon to be an onsite event so remotely joining as well as working with a remote team is not allowed."
+    answer: "No, we want this hackathon to be an offline event so remotely joining as well as working with a remote team is not allowed."
 
   },
   {
@@ -83,7 +83,7 @@ const FaqSection = () => {
         </div>
         <div className='mt-5 d-flex flex-column align-items-center'>
           <p className='fs-4 text-center'>Still have doubts? Let's connect over Discord Server.</p>
-          <a href="https://discord.com/invite/T6uebtYq" className='text-decoration-none'>
+          <a href="https://discord.com/invite/EADG6ANSb7" className='text-decoration-none'>
             <button className='custom-apply-button apply-button'>
               <p style={{"marginBottom": "0"}}>Join the Discord</p>
             </button>

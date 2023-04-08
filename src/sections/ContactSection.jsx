@@ -46,7 +46,7 @@ const ContactSection = () => {
         </div>
         <div className='col-sm-12 px-4 px-md-0 col-md-1 mt-5 mt-sm-0 d-flex flex-md-column align-items-center justify-content-between'>
             <a className='' href="https://www.facebook.com/people/Tech-E-Clan/100086454217540/?mibextid=ZbWKwL" ><img src="https://img.icons8.com/material-sharp/28/ffffff/facebook-new.png"/></a>
-            <a className='' href="https://discord.gg/T6uebtYq" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"/></a>
+            <a className='' href="https://discord.com/invite/EADG6ANSb7" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/discord-logo.png"/></a>
             <a className='' href="https://instagram.com/tech_e_clan?igshid=YmMyMTA2M2Y=" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/></a>
             <a className='' href="https://www.linkedin.com/company/tech-e-clan/" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin-circled--v1.png"/></a>
             <a className='' href="https://www.youtube.com/channel/UCihkpfAYZkhtlBqejbmYafg" ><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png"/></a>

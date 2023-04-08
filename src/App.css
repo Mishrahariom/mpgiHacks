@@ -204,6 +204,19 @@ background: rgb(0,0,0);
 #prizes .prize-worth{
     font-size: 65px;
 }
+
+/****************travel section ************************/
+
+#travelexpense{
+    height: 100vh;
+}
+
+#travelexpense .travelexpense-terms{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
 /****************Theme Section************************/
 /****************Sponsor Section************************/
 /****************faqs Section************************/
@@ -467,5 +480,18 @@ background: rgb(0,0,0);
     #prizes .prize-worth{
         font-size: 35px;
     }
-    
+
+    /****************Travel Section************************/
+
+    #travelexpense{
+        height: fit-content;
+    }
+
+    #travelexpense .travelexpense-list{
+        font-size: 13px;
+    }
+
+    #travelexpense .travelexpense-terms{
+        font-size: 21px;
+    }
 }

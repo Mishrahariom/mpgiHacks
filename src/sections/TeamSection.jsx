@@ -1,7 +1,7 @@
 import React, {useLayoutEffect} from 'react'
 import ProfileCard from '../component/ProfileCard'
 import { founders } from '../pages/teamDetails';
-import gsap from 'gsap';
+// import gsap from 'gsap';
 import useWindowDimensions from '../component/useWindowDimensions';
 
 
