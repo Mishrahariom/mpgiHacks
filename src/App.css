@@ -207,7 +207,8 @@ background: rgb(0,0,0);
 
 /****************travel section ************************/
 
-#travels .travels-terms{
+#travel .travel-terms{
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 50px;
     text-align: center;
     padding: 20px;
@@ -478,18 +479,11 @@ background: rgb(0,0,0);
 
     /****************Travel Section************************/
 
-    #travels .travels-list{
+    #travel .travel-list{
         font-size: 13px;
     }
 
-    /* #travels .travels-terms{
-        font-size: 21px;
-    } */
-
-    #travels .travels-terms{
+    #travel .travel-terms{
         font-size: 21px;
     }
-
-
-    
 }
