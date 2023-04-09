@@ -1,5 +1,5 @@
 import React, {useLayoutEffect} from 'react';
-import {Cover,AboutHacks,About,Travel,Schedule, Prize, Sponsor, Faq, Theme,Team} from '../sections';
+import { Cover, AboutHacks, About, Travel, Schedule, Prize, Faq, Theme, Team, Speaker } from '../sections';
 import gsap from 'gsap';
 import useWindowDimensions from '../component/useWindowDimensions';
 
@@ -29,6 +29,7 @@ const HomePage = () => {
         <Prize />
         <Schedule />
         <Theme />
+        <Speaker />
         <Faq />
         <About />
         <Team />

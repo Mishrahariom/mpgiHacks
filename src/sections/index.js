@@ -6,9 +6,10 @@ import {default as Prize} from './PrizeSection';
 import {default as Schedule} from './ScheduleSection';
 import {default as Theme} from './ThemeSection';
 import {default as Sponsor} from './SponsorSection';
+import {default as Speaker} from './SpeakerSection';
 import {default as Faq} from './FaqSection';
-import {default as Contact} from './ContactSection';
 import {default as Team} from './TeamSection';
+import {default as Contact} from './ContactSection';
 
 
-export {Cover,AboutHacks,About,Travel, Prize, Schedule, Theme, Sponsor, Faq, Team, Contact}
+export {Cover,AboutHacks,About,Travel, Prize, Schedule, Theme, Speaker, Sponsor, Faq, Team, Contact}
