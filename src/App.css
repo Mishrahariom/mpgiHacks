@@ -218,7 +218,15 @@ background: rgb(0,0,0);
     padding: 20px;
 }
 /****************Theme Section************************/
-/****************Sponsor Section************************/
+/****************Speakers Section************************/
+#speakers p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+}
+
+#speakers .speakers-name{
+    font-size: 20px;
+}
 /****************faqs Section************************/
 .faqs-questions{
     display: flex;

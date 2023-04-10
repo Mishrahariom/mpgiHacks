@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Travel = () => {
+const TravelSection = () => {
 
   return (
     <section id="travelexpense" className='container-fluid' style={{ "paddingTop": "7rem" }}>
@@ -20,5 +20,4 @@ const Travel = () => {
   );
 }
 
-export default Travel
-// col-12 col-md-12
+export default TravelSection
