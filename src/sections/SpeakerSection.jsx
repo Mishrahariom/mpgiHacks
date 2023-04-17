@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SpeakerSection = () => {
   return (
 <section className='container-fluid min-vh-100 align-items-center justify-content-center' style={{ "paddingTop": "7rem" }}>
@@ -9,7 +8,7 @@ const SpeakerSection = () => {
         <div class="col-sm">
           <div>
             <div className='card text-center bg-white' style={{ "width": "18rem", "height": "25rem", "margin": "5rem auto", "borderRadius": "2rem", "border": "1px solid white" }}>
-              <img src="https://i.ibb.co/2SbrJbh/sir-ji-2.jpg" style={{ "margin": "2rem auto 1rem", "width": "175px", "borderRadius": "50%" }} />
+              <img src="https://i.ibb.co/MSWkJk7/ACP-V-K-PANDEY.jpg" style={{ "margin": "2rem auto 1rem", "width": "175px", "borderRadius": "50%" }} />
               <div className='card-body bg-black' style={{ "borderRadius": "0 0 2rem 2rem" }}>
                 <p className='speakers-name'> Vikas Kumar Pandey</p>
                 <p className='speakers-post'>Assistant Commissioner of Police</p>
