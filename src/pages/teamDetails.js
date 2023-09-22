@@ -39,7 +39,7 @@ export const founders = [
     },
     {
         name: "Anmol pandey",
-        photo: "https://i.ibb.co/YpdqNJK/Anmol-Pandey1-Copy.jpg",
+        photo: "https://i.ibb.co/93MgjYP/Anmol-Pandey.jpg",
         number: "9369051543",
         facebook: "https://www.facebook.com/profile.php?id=100016857793852&mibextid=ZbWKwL",
         insta: "https://www.instagram.com/x._harshpandey_.x/",
